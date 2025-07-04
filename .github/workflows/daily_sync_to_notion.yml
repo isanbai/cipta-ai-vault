@@ -1,0 +1,25 @@
+name: Daily Sync to Notion (07:00 WIB)
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Every day at 07:00 WIB (00:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  upload-to-notion:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install notion-client
+
+      - name: Upload or Update Weeks with Status
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python update_or_create_weeks_with_status.py
