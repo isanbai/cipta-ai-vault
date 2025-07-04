@@ -1,0 +1,18 @@
+name: Sync Obsidian Vault to Notion
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Sync markdown to Notion
+        uses: alohe/notion-md-sync@v0.1.1
+        with:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+          SOURCE_PATH: "./Roadmap Mingguan" # bisa diganti
