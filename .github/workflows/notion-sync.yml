@@ -2,7 +2,7 @@ name: Sync Markdown to Notion
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   sync:
@@ -10,11 +10,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: Push Markdown to Notion
         uses: tryfabric/markdown-to-notion@v1
         with:
-          file: './Roadmap Mingguan/Week 01.md'   # bisa diganti atau tambahkan steps
           notion_token: ${{ secrets.NOTION_TOKEN }}
           notion_id: ${{ secrets.NOTION_PAGE_ID }}
           delete_existing: true
+          SOURCE_PATH: "./Roadmap Mingguan"   # bisa diganti atau tambahkan steps
