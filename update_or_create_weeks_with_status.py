@@ -46,9 +46,24 @@ for i, week_file in enumerate(weeks):
     page = query_page_by_title(title)
 
     properties = {
-        "title": [{"type": "text", "text": {"content": title}}],
-        "Status": {"status": {"name": "Not started"}},
-        "Target Tanggal": {"date": {"start": date_str}}
+        "title": [
+            {
+                "type": "text",
+                "text": {
+                    "content": title
+                }
+            }
+        ],
+        "Status": {
+            "status": {
+                "name": "Not started"  # atau "Selesai", "In Progress"
+            }
+        },
+        "Target Tanggal": {
+            "date": {
+                "start": date_str  # format: "YYYY-MM-DD"
+            }
+        }
     }
 
     children = [{
