@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: Sync Obsidian Vault to Notion (Week 1)
+=======
+name: Sync Markdown to Notion
+>>>>>>> c08ef01066066dd6bb973987a791080babbc08de
 
 on:
   push:
@@ -7,8 +11,10 @@ on:
 jobs:
   sync-week-1:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+<<<<<<< HEAD
       - name: Push Week 1 to Notion
         uses: tryfabric/markdown-to-notion@v1
         with:
@@ -278,3 +284,13 @@ jobs:
           delete_existing: true
 
 
+=======
+      
+      - name: Push Markdown to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID }}
+          delete_existing: true
+          SOURCE_PATH: "./Roadmap Mingguan"   # bisa diganti atau tambahkan steps
+>>>>>>> c08ef01066066dd6bb973987a791080babbc08de
