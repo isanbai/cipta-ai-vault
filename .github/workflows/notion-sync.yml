@@ -1,18 +1,280 @@
-name: Sync Obsidian Vault to Notion
+name: Sync Obsidian Vault to Notion (Week 1)
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  sync:
+  sync-week-1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Sync markdown to Notion
-        uses: alohe/notion-md-sync@v0.1.1
+      - name: Push Week 1 to Notion
+        uses: tryfabric/markdown-to-notion@v1
         with:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
-          SOURCE_PATH: "./Roadmap Mingguan" # bisa diganti
+          file: './Roadmap Mingguan/Week 01.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_01 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 2)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 2 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 02.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_02 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 3)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 3 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 03.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_03 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 4)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 4 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 04.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_04 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 5)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 5 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 05.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_05 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 6)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 6 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 06.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_06 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 7)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 7 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 07.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_07 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 8)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 8 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 08.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_08 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 9)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 9 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 09.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_09 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 10)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-10:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 10 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 10.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_10 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 11)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-11:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 11 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 11.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_11 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 12)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-12:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 12 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 12.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_12 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 13)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-13:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 13 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 13.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_13 }}
+          delete_existing: true
+
+
+name: Sync Obsidian Vault to Notion (Week 14)
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sync-week-14:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push Week 14 to Notion
+        uses: tryfabric/markdown-to-notion@v1
+        with:
+          file: './Roadmap Mingguan/Week 14.md'
+          notion_token: ${{ secrets.NOTION_TOKEN }}
+          notion_id: ${{ secrets.NOTION_PAGE_ID_14 }}
+          delete_existing: true
+
+
