@@ -1,6 +1,6 @@
 # 📅 Week 2
 
-## 🎯 Fokus:
+## 🎯 Fokus: NLP
 
 ## 📚 Materi:
 

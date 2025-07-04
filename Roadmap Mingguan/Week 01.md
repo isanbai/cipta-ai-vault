@@ -1,12 +1,12 @@
 # 📅 Week 1
 
-## 🎯 Fokus:
+## 🎯 Fokus: Dasar Python
 
-## 📚 Materi:
+## 📚 Materi: Python
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: ammar-ai
 
 ## ✅ Checklist:
 
