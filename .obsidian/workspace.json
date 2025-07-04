@@ -162,12 +162,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "a582901c54a4c65d",
+  "active": "e6e7bad41dea3d7f",
   "lastOpenFiles": [
+    "create-notion-page.yml",
     "New folder",
     "Roadmap Mingguan/Week 02.md",
     "Roadmap Mingguan/Week 01.md",
