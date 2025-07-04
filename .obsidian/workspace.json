@@ -11,10 +11,14 @@
             "id": "a582901c54a4c65d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Roadmap Mingguan/Week 01.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 01"
             }
           }
         ]
@@ -166,8 +170,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e7bad41dea3d7f",
+  "active": "a582901c54a4c65d",
   "lastOpenFiles": [
+    "update_or_create_weeks_with_status.py",
+    "update_or_create_weeks.py",
+    "Roadmap Mingguan/Week 15.md",
+    "Roadmap Mingguan/Week 05.md",
     "create-notion-page.yml",
     "New folder",
     "Roadmap Mingguan/Week 02.md",
@@ -176,7 +184,6 @@
     "Roadmap Mingguan/Week 04.md",
     "00-Index/Final_Roadmap_AI.md",
     "Roadmap Mingguan/Week 03.md",
-    "Roadmap Mingguan/Week 05.md",
     "Roadmap Mingguan/Week 07.md",
     "Roadmap Mingguan/Week 09.md",
     "Roadmap Mingguan/Week 11.md",

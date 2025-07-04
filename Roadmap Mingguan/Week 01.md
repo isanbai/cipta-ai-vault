@@ -1,8 +1,7 @@
 # 📅 Week 1
 
-## 🎯 Fokus: Dasar Python
-
-## 📚 Materi: Python
+## 🎯 Fokus: 
+## 📚 Materi: 
 
 ## 💡 Insight:
 
