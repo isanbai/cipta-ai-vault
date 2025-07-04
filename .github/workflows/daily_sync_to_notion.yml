@@ -1,8 +1,9 @@
 name: Daily Sync to Notion (07:00 WIB)
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Every day at 07:00 WIB (00:00 UTC)
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:

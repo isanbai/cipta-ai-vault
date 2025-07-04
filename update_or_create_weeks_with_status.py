@@ -47,7 +47,7 @@ for i, week_file in enumerate(weeks):
 
     properties = {
         "title": [{"type": "text", "text": {"content": title}}],
-        "Status": {"select": {"name": "Belum Mulai"}},
+        "Status": {"select": {"name": "Not started"}},
         "Target Tanggal": {"date": {"start": date_str}}
     }
 
