@@ -5,7 +5,7 @@
 
 ## 💡 Insight:
 
-## 📌 Proyek: ammar-ai
+## 📌 Proyek: 
 
 ## ✅ Checklist:
 
