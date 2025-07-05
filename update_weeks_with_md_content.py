@@ -42,16 +42,6 @@ def create_or_update_weeks():
                         "text": {"content": title}
                     }
                 ]
-            },
-            "Status": {
-                "status": {
-                    "name": status_default
-                }
-            },
-            "Target Tanggal": {
-                "date": {
-                    "start": date_str
-                }
             }
         }
 
