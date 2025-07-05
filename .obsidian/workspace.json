@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap Mingguan/Week 13.md",
+                "file": "Roadmap Mingguan/Week 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 13"
+              "title": "Week 01"
             }
           }
         ]
@@ -172,19 +172,20 @@
   },
   "active": "a582901c54a4c65d",
   "lastOpenFiles": [
-    "Roadmap Mingguan/Week 12.md",
+    "Roadmap Mingguan/Week 05.md",
+    "Roadmap Mingguan/Week 08.md",
+    "Roadmap Mingguan/Week 10.md",
+    "Roadmap Mingguan/Week 11.md",
     "Roadmap Mingguan/Week 13.md",
+    "Roadmap Mingguan/Week 12.md",
+    "Roadmap Mingguan/Week 14.md",
     "Roadmap Mingguan/Week 03.md",
     "Roadmap Mingguan/Week 02.md",
     "Roadmap Mingguan/Week 01.md",
     "00-Index/Final_Roadmap_AI.md",
-    "Roadmap Mingguan/Week 11.md",
-    "Roadmap Mingguan/Week 10.md",
     "Roadmap Mingguan/Week 09.md",
-    "Roadmap Mingguan/Week 08.md",
     "Roadmap Mingguan/Week 07.md",
     "Roadmap Mingguan/Week 06.md",
-    "Roadmap Mingguan/Week 05.md",
     "Roadmap Mingguan/Week 04.md",
     "Roadmap Mingguan/week-01.md",
     "Roadmap Mingguan/week-12.md",
@@ -197,7 +198,6 @@
     "Roadmap Mingguan/week-05.md",
     "Roadmap Mingguan/week-04.md",
     "Roadmap Mingguan/week-03.md",
-    "Roadmap Mingguan/week-02.md",
     "update_weeks_with_md_content.py",
     "desktop.ini",
     "update_or_create_weeks_with_status (1).py",
