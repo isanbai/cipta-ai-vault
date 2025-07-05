@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 notion = Client(auth=os.environ["NOTION_TOKEN"])
 database_id = os.environ["NOTION_DATABASE_ID"]
-vault_path = "Cipta_AI_Vault"
+vault_path = "Roadmap Mingguan"
 
 def create_or_update_weeks():
     start_date = datetime(2025, 7, 1)
