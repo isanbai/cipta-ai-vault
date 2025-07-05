@@ -1,12 +1,12 @@
 # 📅 Week 11
 
-## 🎯 Fokus:
+## 🎯 Fokus: UI Frontend React/Chainlit
 
-## 📚 Materi:
+## 📚 Materi: UI Apply Job & Produk Search
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #All
 
 ## ✅ Checklist:
 

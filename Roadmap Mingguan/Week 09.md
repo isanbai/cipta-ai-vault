@@ -1,12 +1,12 @@
 # 📅 Week 9
 
-## 🎯 Fokus:
+## 🎯 Fokus: RAG & LangChain
 
-## 📚 Materi:
+## 📚 Materi: Chatbot RAG CV & ceramah
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob #DakwahAI
 
 ## ✅ Checklist:
 

@@ -1,12 +1,12 @@
 # 📅 Week 4
 
-## 🎯 Fokus:
+## 🎯 Fokus: CNN & Vision AI
 
-## 📚 Materi:
+## 📚 Materi: Model ekspresi wajah + layout ceramah
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #AmmarAI #DakwahAI
 
 ## ✅ Checklist:
 

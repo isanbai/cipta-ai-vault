@@ -1,12 +1,12 @@
 # 📅 Week 7
 
-## 🎯 Fokus:
+## 🎯 Fokus: Embedding & Vector DB
 
-## 📚 Materi:
+## 📚 Materi: Vector DB CV & produk
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob #BarangLagi
 
 ## ✅ Checklist:
 

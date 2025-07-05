@@ -1,12 +1,12 @@
 # 📅 Week 8
 
-## 🎯 Fokus:
+## 🎯 Fokus: LLM & Inference
 
-## 📚 Materi:
+## 📚 Materi: Inference LLM lokal/API
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob #DakwahAI
 
 ## ✅ Checklist:
 

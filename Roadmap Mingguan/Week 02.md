@@ -1,12 +1,12 @@
 # 📅 Week 2
 
-## 🎯 Fokus: 
+## 🎯 Fokus: Numpy, Pandas & Visualisasi
 
-## 📚 Materi:
+## 📚 Materi: Dataset & grafik analisis produk/anak
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #BarangLagi #AmmarAI
 
 ## ✅ Checklist:
 

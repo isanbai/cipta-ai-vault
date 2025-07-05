@@ -1,12 +1,12 @@
 # 📅 Week 5
 
-## 🎯 Fokus:
+## 🎯 Fokus: NLP Dasar & LSTM
 
-## 📚 Materi:
+## 📚 Materi: Text classifier + auto ceramah
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #DakwahAI #HireJob
 
 ## ✅ Checklist:
 

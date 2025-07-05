@@ -1,12 +1,12 @@
 # 📅 Week 3
 
-## 🎯 Fokus:
+## 🎯 Fokus: ML Dasar: Regresi & Klasifikasi
 
-## 📚 Materi:
+## 📚 Materi: Model klasifikasi pelamar dan produk
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob #BarangLagi
 
 ## ✅ Checklist:
 

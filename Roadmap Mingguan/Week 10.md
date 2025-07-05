@@ -1,12 +1,12 @@
 # 📅 Week 10
 
-## 🎯 Fokus:
+## 🎯 Fokus: API + FastAPI + Docker
 
-## 📚 Materi:
+## 📚 Materi: API Matching + Search
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob #BarangLagi
 
 ## ✅ Checklist:
 

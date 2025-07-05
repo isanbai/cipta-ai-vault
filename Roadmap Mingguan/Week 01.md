@@ -1,11 +1,11 @@
 # 📅 Week 1
 
-## 🎯 Fokus: 
-## 📚 Materi: 
+## 🎯 Fokus: Dasar Python & AI Thinking
+## 📚 Materi: Script parsing metadata + CV
 
 ## 💡 Insight:
 
-## 📌 Proyek: 
+## 📌 Proyek: #AmmarAI #HireJob
 
 ## ✅ Checklist:
 

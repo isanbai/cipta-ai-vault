@@ -1,12 +1,12 @@
 # 📅 Week 14
 
-## 🎯 Fokus:
+## 🎯 Fokus: Ekspresi Wajah & Scoring
 
-## 📚 Materi:
+## 📚 Materi: Ekspresi pelamar + dashboard HR
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob
 
 ## ✅ Checklist:
 

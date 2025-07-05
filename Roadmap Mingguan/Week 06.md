@@ -1,12 +1,12 @@
 # 📅 Week 6
 
-## 🎯 Fokus:
+## 🎯 Fokus: TTS & Voice Cloning
 
-## 📚 Materi:
+## 📚 Materi: Suara AI anak dan ustadz
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #AmmarAI #DakwahAI
 
 ## ✅ Checklist:
 

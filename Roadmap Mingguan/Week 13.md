@@ -1,12 +1,12 @@
 # 📅 Week 13
 
-## 🎯 Fokus:
+## 🎯 Fokus: AI Interview & STT
 
-## 📚 Materi:
+## 📚 Materi: Transkrip jawaban pelamar
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #HireJob
 
 ## ✅ Checklist:
 

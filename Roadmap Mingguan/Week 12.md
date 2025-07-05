@@ -1,12 +1,12 @@
 # 📅 Week 12
 
-## 🎯 Fokus:
+## 🎯 Fokus: Monitoring & Otomatisasi
 
-## 📚 Materi:
+## 📚 Materi: Deployment & auto post
 
 ## 💡 Insight:
 
-## 📌 Proyek:
+## 📌 Proyek: #All
 
 ## ✅ Checklist:
 
