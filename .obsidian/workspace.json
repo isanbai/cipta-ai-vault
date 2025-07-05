@@ -170,8 +170,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a582901c54a4c65d",
+  "active": "e6e7bad41dea3d7f",
   "lastOpenFiles": [
+    "sync_md_overwrite_notion.py",
     "Roadmap/Week 05.md",
     "Roadmap/Week 08.md",
     "Roadmap/Week 10.md",
@@ -197,7 +198,6 @@
     "Roadmap Mingguan/week-06.md",
     "Roadmap Mingguan/week-05.md",
     "Roadmap Mingguan/week-04.md",
-    "Roadmap Mingguan/week-03.md",
     "update_weeks_with_md_content.py",
     "desktop.ini",
     "update_or_create_weeks_with_status (1).py",
