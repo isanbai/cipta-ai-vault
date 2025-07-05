@@ -1,12 +1,21 @@
-# 📅 Week 7
+# 📅 Week 07
 
-## 🎯 Fokus: Embedding & Vector DB
+## 🎯 Fokus
+Tuning Model LLM
 
-## 📚 Materi: Vector DB CV & produk
+## 📦 Materi
+LoRA / QLoRA pada model lokal
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #HireJob #BarangLagi
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

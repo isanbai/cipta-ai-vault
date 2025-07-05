@@ -1,12 +1,21 @@
-# 📅 Week 8
+# 📅 Week 08
 
-## 🎯 Fokus: LLM & Inference
+## 🎯 Fokus
+Vector Store & Reranker
 
-## 📚 Materi: Inference LLM lokal/API
+## 📦 Materi
+Qdrant + Cohere Reranker
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #HireJob #DakwahAI
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

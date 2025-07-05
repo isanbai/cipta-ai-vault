@@ -1,12 +1,21 @@
-# 📅 Week 5
+# 📅 Week 05
 
-## 🎯 Fokus: NLP Dasar & LSTM
+## 🎯 Fokus
+NLP Dasar & Dataset
 
-## 📚 Materi: Text classifier + auto ceramah
+## 📦 Materi
+Preprocessing CV + Job Desc
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #DakwahAI #HireJob
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

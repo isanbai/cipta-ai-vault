@@ -1,12 +1,21 @@
 # 📅 Week 10
 
-## 🎯 Fokus: API + FastAPI + Docker
+## 🎯 Fokus
+React + FastAPI
 
-## 📚 Materi: API Matching + Search
+## 📦 Materi
+Desain UI dan REST API AI
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #HireJob #BarangLagi
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

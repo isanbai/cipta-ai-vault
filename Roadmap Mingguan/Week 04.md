@@ -1,12 +1,21 @@
-# 📅 Week 4
+# 📅 Week 04
 
-## 🎯 Fokus: CNN & Vision AI
+## 🎯 Fokus
+LSTM & TTS
 
-## 📚 Materi: Model ekspresi wajah + layout ceramah
+## 📦 Materi
+Text-to-speech + prediksi sekuens
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #AmmarAI #DakwahAI
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

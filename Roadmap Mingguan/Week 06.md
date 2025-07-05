@@ -1,12 +1,21 @@
-# 📅 Week 6
+# 📅 Week 06
 
-## 🎯 Fokus: TTS & Voice Cloning
+## 🎯 Fokus
+LangChain & Embedding
 
-## 📚 Materi: Suara AI anak dan ustadz
+## 📦 Materi
+Build RAG untuk jawaban AI
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #AmmarAI #DakwahAI
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

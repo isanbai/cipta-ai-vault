@@ -1,12 +1,21 @@
 # 📅 Week 11
 
-## 🎯 Fokus: UI Frontend React/Chainlit
+## 🎯 Fokus
+Docker + Deployment
 
-## 📚 Materi: UI Apply Job & Produk Search
+## 📦 Materi
+Containerisasi proyek AI
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #All
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

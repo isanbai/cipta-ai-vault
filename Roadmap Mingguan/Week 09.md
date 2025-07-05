@@ -1,12 +1,21 @@
-# 📅 Week 9
+# 📅 Week 09
 
-## 🎯 Fokus: RAG & LangChain
+## 🎯 Fokus
+Audio & Video AI
 
-## 📚 Materi: Chatbot RAG CV & ceramah
+## 📦 Materi
+Voice Cloning + Ekstrak Wajah
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #HireJob #DakwahAI
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion

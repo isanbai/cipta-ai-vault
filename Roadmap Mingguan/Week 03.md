@@ -1,12 +1,21 @@
-# 📅 Week 3
+# 📅 Week 03
 
-## 🎯 Fokus: ML Dasar: Regresi & Klasifikasi
+## 🎯 Fokus
+CNN & Dataset
 
-## 📚 Materi: Model klasifikasi pelamar dan produk
+## 📦 Materi
+Ekspresi wajah anak + transfer learning
 
-## 💡 Insight:
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 
-## 📌 Proyek: #HireJob #BarangLagi
+## 🔧 Proyek
+#AmmarAI  #HireJob
 
-## ✅ Checklist:
+## 📚 Course Progress
+- [ ] (tambahkan kursus jika ada)
 
+## ✅ Checklist
+- [ ] Review materi minggu ini
+- [ ] Implementasi praktikal
+- [ ] Update progres di GitHub & Notion
