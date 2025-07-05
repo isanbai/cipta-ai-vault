@@ -14,7 +14,7 @@ def create_or_update_weeks():
     for i in range(1, 20):
         title = f"Week {i:02d}"
         date_str = (start_date + timedelta(weeks=i - 1)).strftime("%Y-%m-%d")
-        md_path = os.path.join(vault_path, f"week-{i:02d}.md")
+        md_path = os.path.join(vault_path, f"Week {i:02d}.md")
 
         if not os.path.exists(md_path):
             print(f"❌ Markdown file not found: {md_path}")
