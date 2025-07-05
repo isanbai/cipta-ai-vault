@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week 01.md",
-                "mode": "source",
+                "file": "Roadmap/Week 02.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01"
+              "title": "Week 02"
             }
           }
         ]
@@ -170,8 +170,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e7bad41dea3d7f",
+  "active": "a582901c54a4c65d",
   "lastOpenFiles": [
+    "Roadmap/Week 01.md",
     "sync_md_overwrite_notion.py",
     "Roadmap/Week 05.md",
     "Roadmap/Week 08.md",
@@ -182,7 +183,6 @@
     "Roadmap/Week 14.md",
     "Roadmap/Week 03.md",
     "Roadmap/Week 02.md",
-    "Roadmap/Week 01.md",
     "00-Index/Final_Roadmap_AI.md",
     "Roadmap/Week 09.md",
     "Roadmap/Week 07.md",
