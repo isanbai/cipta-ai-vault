@@ -23,4 +23,4 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-        run: python update_or_create_weeks_with_status.py
+        run: python update_weeks_with_md_content.py

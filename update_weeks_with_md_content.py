@@ -11,7 +11,7 @@ def create_or_update_weeks():
     start_date = datetime(2025, 7, 1)
     status_default = "Not started"
 
-    for i in range(1, 13):
+    for i in range(1, 20):
         title = f"Week {i:02d}"
         date_str = (start_date + timedelta(weeks=i - 1)).strftime("%Y-%m-%d")
         md_path = os.path.join(vault_path, f"week-{i:02d}.md")
