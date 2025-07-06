@@ -166,14 +166,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "e6e7bad41dea3d7f",
+  "active": "c8669539ff6efa98",
   "lastOpenFiles": [
-    "Dashboard.md",
-    "Roadmap/Week 13.md",
     "Roadmap/Week 01.md",
+    "Dashboard.md",
+    "Untitled.canvas",
+    "2025-07-06.md",
+    "Roadmap/Week 13.md",
     "Untitled.md",
     "Templates/Weekly_Template.md",
     "Templates",
@@ -203,8 +207,6 @@
     "Roadmap/Week 10.md",
     "Roadmap/Week 11.md",
     "Roadmap/Week 12.md",
-    "Roadmap/Week 14.md",
-    "Roadmap/Week 09.md",
     "update_weeks_with_md_content.py",
     "desktop.ini"
   ]

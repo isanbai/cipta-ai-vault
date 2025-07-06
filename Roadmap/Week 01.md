@@ -3,7 +3,7 @@
 (Tulis topik utama minggu ini)
 
 ## 📚 Materi
-- [ ] Link atau ringkasan materi
+- [x] Link atau ringkasan materi
 
 ## ✅ Checklist
 - [ ] Tugas mingguan
