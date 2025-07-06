@@ -1,20 +1,35 @@
 # 📅 Week 02
-
 ## 🎯 Fokus
-Neural Network Dasar
+(Tulis topik utama minggu ini)
 
-## 📦 Materi
-Klasifikasi MNIST + Backpropagation
+## 📚 Materi
+- [ ] Link atau ringkasan materi
+
+## ✅ Checklist
+- [ ] Tugas mingguan
 
 ## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
+(Catat pemahaman & refleksi)
 
+## 🔗 Terkait
+[[Final_Roadmap_AI]]
+
+#Roadmap #AI
+
+
+---
+## 📝 Catatan Asli
+# 📅 Week 02
+## 🎯 Fokus
+Neural Network Dasar
+## 📦 Materi
+Klasifikasi MNIST + Backpropagation
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 ## 🔧 Proyek
 #AmmarAI  #HireJob
-
 ## 📚 Course Progress
 - [ ] (tambahkan kursus jika ada)
-
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

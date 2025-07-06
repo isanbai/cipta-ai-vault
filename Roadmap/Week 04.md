@@ -1,20 +1,35 @@
 # 📅 Week 04
-
 ## 🎯 Fokus
-LSTM & TTS
+(Tulis topik utama minggu ini)
 
-## 📦 Materi
-Text-to-speech + prediksi sekuens
+## 📚 Materi
+- [ ] Link atau ringkasan materi
+
+## ✅ Checklist
+- [ ] Tugas mingguan
 
 ## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
+(Catat pemahaman & refleksi)
 
+## 🔗 Terkait
+[[Final_Roadmap_AI]]
+
+#Roadmap #AI
+
+
+---
+## 📝 Catatan Asli
+# 📅 Week 04
+## 🎯 Fokus
+LSTM & TTS
+## 📦 Materi
+Text-to-speech + prediksi sekuens
+## 💡 Insight
+- Catat pemahaman baru atau hal penting dari materi minggu ini.
 ## 🔧 Proyek
 #AmmarAI  #HireJob
-
 ## 📚 Course Progress
 - [ ] (tambahkan kursus jika ada)
-
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

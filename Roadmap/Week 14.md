@@ -1,12 +1,30 @@
 # 📅 Week 14
+## 🎯 Fokus
+(Tulis topik utama minggu ini)
 
-## 🎯 Fokus: 
+## 📚 Materi
+- [ ] Link atau ringkasan materi
+
+## ✅ Checklist
+- [ ] Tugas mingguan
+
+## 💡 Insight
+(Catat pemahaman & refleksi)
+
+## 🔗 Terkait
+[[Final_Roadmap_AI]]
+
+#Roadmap #AI
+
+
+---
+## 📝 Catatan Asli
+# 📅 Week 14
+## 🎯 Fokus:
 Ekspresi Wajah & Scoring
-## 📚 Materi: 
+## 📚 Materi:
 Ekspresi pelamar + dashboard HR
 ## 💡 Insight:
-
-## 📌 Proyek: 
+## 📌 Proyek:
 #HireJob
 ## ✅ Checklist:
-
