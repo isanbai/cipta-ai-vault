@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week 01.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -185,10 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb73b524877ae81a",
+  "active": "e6e7bad41dea3d7f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Roadmap/Week 01.md",
+    "conflict-files-obsidian-git.md",
     "Roadmap/Weekly_Template.md",
     "Dashboard.md",
     "Roadmap/Week 04.md",
