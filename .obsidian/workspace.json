@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Roadmap/Week 02.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -172,7 +172,10 @@
   },
   "active": "a582901c54a4c65d",
   "lastOpenFiles": [
+    "Cipta_AI_Vault.zip",
+    "01-Belajar AI Dasar.zip",
     "Roadmap/Week 01.md",
+    "Roadmap/Week 02.md",
     "sync_md_overwrite_notion.py",
     "Roadmap/Week 05.md",
     "Roadmap/Week 08.md",
@@ -182,7 +185,6 @@
     "Roadmap/Week 12.md",
     "Roadmap/Week 14.md",
     "Roadmap/Week 03.md",
-    "Roadmap/Week 02.md",
     "00-Index/Final_Roadmap_AI.md",
     "Roadmap/Week 09.md",
     "Roadmap/Week 07.md",
