@@ -6,8 +6,8 @@ Script parsing metadata + CV
 
 ## 💡 Insight
 
-Insight:: Belajar parsing metadata
-Insight:: Fungsi split() di Python
+- [ ] Belajar parsing metadata
+- [ ] Fungsi split() di Python
 
 ## 🔧 Proyek
 #AmmarAI  #HireJob

@@ -16,64 +16,36 @@ sort file.name asc
 - [[Proyek/HireJob]]
 - [[Proyek/DakwahAI]]
 
-## 📚 Course
+
 ```dataviewjs
-const files = dv.pages('"Roadmap"')
+const pages = dv.pages('"Roadmap"')
   .where(p => p.file.name.startsWith("Week"));
 
-let allCourses = [];
+let checklistByHeading = {};
 
-for (let page of files) {
-  const contents = await dv.io.load(page.file.path);
-  const sectionRegex = /## 📚 Course Progress([\s\S]*?)(\n## |$)/g;
-  const match = sectionRegex.exec(contents);
-  
-  if (match && match[1]) {
-    const checklistRegex = /^- \[[ xX]\] .+/gm;
-    const tasks = match[1].match(checklistRegex);
-    if (tasks) {
-      allCourses.push(...tasks);
+for (let page of pages) {
+  const content = await dv.io.load(page.file.path);
+  const lines = content.split("\n");
+
+  let currentHeading = null;
+
+  for (let line of lines) {
+    const headingMatch = line.match(/^##\s+(.*)/);
+    const checklistMatch = line.match(/^-\s\[( |x|X)\]\s+(.*)/);
+
+    if (headingMatch) {
+      currentHeading = headingMatch[1].trim();
+    } else if (checklistMatch && currentHeading) {
+      if (!checklistByHeading[currentHeading]) checklistByHeading[currentHeading] = [];
+      checklistByHeading[currentHeading].push(line);
     }
   }
 }
 
-dv.paragraph(allCourses.join('\n'));
-```
-
-```dataviewjs
-let pages = dv.pages('"Roadmap"')
-    .where(p => p.file.name != "Weekly_Template" && p.Insight);
-
-let allInsights = [];
-
-for (let page of pages) {
-    if (Array.isArray(page.Insight)) {
-        allInsights.push(...page.Insight);
-    } else if (typeof page.Insight === 'string') {
-        allInsights.push(page.Insight);
-    }
+// Tampilkan hasilnya
+for (let heading in checklistByHeading) {
+  dv.header(2, heading); // buat heading
+  dv.paragraph(checklistByHeading[heading].join("\n"));
 }
 
-dv.header(2, "💡 Insight Mingguan");
-dv.list(allInsights);
-```
-
-## 📘 Course Progress Mingguan
-
-```dataviewjs
-let weeks = dv.pages('"Roadmap"')
-    .where(p => p.file.name.startsWith("Week") && p["Course Progress"]);
-
-let allCourses = [];
-
-for (let page of weeks) {
-    let courses = page["Course Progress"];
-    if (Array.isArray(courses)) {
-        allCourses.push(...courses);
-    } else if (courses) {
-        allCourses.push(courses);
-    }
-}
-
-dv.list(allCourses);
 ```
