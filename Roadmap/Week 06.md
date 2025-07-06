@@ -1,26 +1,5 @@
 # 📅 Week 06
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 06
-## 🎯 Fokus
 LangChain & Embedding
 ## 📦 Materi
 Build RAG untuk jawaban AI
@@ -30,7 +9,10 @@ Build RAG untuk jawaban AI
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Text Classification with Transformers](https://huggingface.co/course/chapter3)
+- [ ] [TTS dengan Coqui](https://learn.coqui.ai/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

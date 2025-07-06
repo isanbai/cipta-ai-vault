@@ -1,26 +1,5 @@
 # 📅 Week 12
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 12
-## 🎯 Fokus
 Sertifikasi & Portfolio
 ## 📦 Materi
 Pembuatan konten & dokumen akhir
@@ -30,7 +9,10 @@ Pembuatan konten & dokumen akhir
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Create API with OpenAI + FastAPI](https://www.youtube.com/watch?v=QIYWrTqajQE)
+- [ ] [Final Project Deployment](https://vercel.com/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

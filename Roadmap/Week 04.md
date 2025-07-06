@@ -1,26 +1,5 @@
 # 📅 Week 04
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 04
-## 🎯 Fokus
 LSTM & TTS
 ## 📦 Materi
 Text-to-speech + prediksi sekuens
@@ -28,9 +7,12 @@ Text-to-speech + prediksi sekuens
 - Catat pemahaman baru atau hal penting dari materi minggu ini.
 ## 🔧 Proyek
 #AmmarAI  #HireJob
-Course Progress::
+
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks)
+- [ ] [Google Teachable Machine](https://teachablemachine.withgoogle.com/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

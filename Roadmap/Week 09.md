@@ -1,25 +1,5 @@
 # 📅 Week 09
-## 🎯 Fokus
-(Tulis topik utama minggu ini)
 
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 09
 ## 🎯 Fokus
 Audio & Video AI
 ## 📦 Materi
@@ -30,7 +10,10 @@ Voice Cloning + Ekstrak Wajah
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Cohere Reranker Demo](https://cohere.com/re-rank)
+- [ ] [RLHF Paper Summary](https://huggingface.co/blog/rlhf)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

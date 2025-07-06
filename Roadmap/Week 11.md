@@ -1,26 +1,5 @@
 # 📅 Week 11
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 11
-## 🎯 Fokus
 Docker + Deployment
 ## 📦 Materi
 Containerisasi proyek AI
@@ -30,7 +9,10 @@ Containerisasi proyek AI
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Build AI Web App with React](https://www.youtube.com/watch?v=9Boz2RH1IF0)
+- [ ] [Cloud Deployment with Railway](https://railway.app/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

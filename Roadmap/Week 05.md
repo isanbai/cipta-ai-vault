@@ -1,26 +1,5 @@
 # 📅 Week 05
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 05
-## 🎯 Fokus
 NLP Dasar & Dataset
 ## 📦 Materi
 Preprocessing CV + Job Desc
@@ -30,7 +9,10 @@ Preprocessing CV + Job Desc
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Transfer Learning for Images](https://www.kaggle.com/learn/computer-vision)
+- [ ] [Hugging Face: Transformers Course](https://huggingface.co/course/chapter1)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

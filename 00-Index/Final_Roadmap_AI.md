@@ -15,22 +15,22 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 - Variabel, fungsi, kondisi, list, dict
 - Pengantar AI, ML, DL, dataset, label
 - 📌 Proyek:
-  - Script parsing metadata foto anak (Ammar-AI)
-  - Script awal pembaca CV (HireJob)
+  - Script parsing metadata foto anak ( #AmmarAI)
+  - Script awal pembaca CV ( #HireJob)
 
 ### 🗓 Week 2 – Numpy, Pandas & Visualisasi `#BarangLagi #AmmarAI`
 - Operasi array & dataframe
 - Data cleaning & EDA dasar
 - 📌 Proyek:
-  - Dataset BarangLagi: harga, produk
-  - Metadata konten anak (Ammar-AI)
+  - Dataset BarangLagi: harga, produk ( #BarangLagi)
+  - Metadata konten anak ( #AmmarAI)
 
 ### 🗓 Week 3 – ML Dasar: Regresi & Klasifikasi `#HireJob #BarangLagi`
 - Linear regression, decision tree
 - Clustering & klasifikasi sederhana
 - 📌 Proyek:
-  - Prediksi skor pelamar (HireJob)
-  - Cluster harga produk (BarangLagi)
+  - Prediksi skor pelamar ( #HireJob)
+  - Cluster harga produk ( #BarangLagi)
 
 ---
 

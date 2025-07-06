@@ -1,26 +1,5 @@
 # 📅 Week 07
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 07
-## 🎯 Fokus
 Tuning Model LLM
 ## 📦 Materi
 LoRA / QLoRA pada model lokal
@@ -30,7 +9,10 @@ LoRA / QLoRA pada model lokal
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [LangChain for Beginners](https://learn.deeplearning.ai/langchain)
+- [ ] [HuggingFace Embedding Models](https://huggingface.co/spaces/mteb/leaderboard)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

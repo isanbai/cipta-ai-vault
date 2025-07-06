@@ -1,26 +1,5 @@
 # 📅 Week 08
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 08
-## 🎯 Fokus
 Vector Store & Reranker
 ## 📦 Materi
 Qdrant + Cohere Reranker
@@ -30,7 +9,10 @@ Qdrant + Cohere Reranker
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [RAG with OpenAI](https://platform.openai.com/docs/guides/retrieval)
+- [ ] [Intro to Qdrant + LlamaIndex](https://qdrant.tech/documentation/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

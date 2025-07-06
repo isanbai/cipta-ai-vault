@@ -1,26 +1,5 @@
 # 📅 Week 10
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 10
-## 🎯 Fokus
 React + FastAPI
 ## 📦 Materi
 Desain UI dan REST API AI
@@ -30,7 +9,10 @@ Desain UI dan REST API AI
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Docker for AI](https://www.youtube.com/watch?v=9zUHg7xjIqQ)
+- [ ] [FastAPI Basics](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal

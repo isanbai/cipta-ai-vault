@@ -1,26 +1,5 @@
 # 📅 Week 02
 ## 🎯 Fokus
-(Tulis topik utama minggu ini)
-
-## 📚 Materi
-- [ ] Link atau ringkasan materi
-
-## ✅ Checklist
-- [ ] Tugas mingguan
-
-## 💡 Insight
-(Catat pemahaman & refleksi)
-
-## 🔗 Terkait
-[[Final_Roadmap_AI]]
-
-#Roadmap #AI
-
-
----
-## 📝 Catatan Asli
-# 📅 Week 02
-## 🎯 Fokus
 Neural Network Dasar
 ## 📦 Materi
 Klasifikasi MNIST + Backpropagation
@@ -30,7 +9,10 @@ Klasifikasi MNIST + Backpropagation
 #AmmarAI  #HireJob
 Course Progress::
 ## 📚 Course Progress
-- [ ] (tambahkan kursus jika ada)
+
+- [ ] [Supervised Machine Learning](https://www.coursera.org/learn/machine-learning)
+- [ ] [Python for Data Science](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
+
 ## ✅ Checklist
 - [ ] Review materi minggu ini
 - [ ] Implementasi praktikal
