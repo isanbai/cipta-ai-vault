@@ -2,17 +2,11 @@
 
 ## ✅ Progress Checklist Mingguan
 
-```dataview
-table file.link as "Minggu", length(filter(list, (l) => contains(l.text, "- [x]"))) as "Checklist Selesai"
-from "Roadmap"
-where file.name != "Weekly_Template"
-sort file.name asc
-```
 
 ```dataview
-table file.link as "Minggu", length(filter(list, (l) => contains(l.text, "- [x]"))) + " dari " + length(filter(list, (l) => contains(l.text, "- [ ]"))) as "Progress"
+table length(file.tasks) as "Total Tasks", length(filter(file.tasks, (t) => t.completed)) as "Selesai"
 from "Roadmap"
-where file.name != "Weekly_Template"
+where contains(file.name, "Week")
 sort file.name asc
 ```
 
