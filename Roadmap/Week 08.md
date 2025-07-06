@@ -28,6 +28,7 @@ Qdrant + Cohere Reranker
 - Catat pemahaman baru atau hal penting dari materi minggu ini.
 ## 🔧 Proyek
 #AmmarAI  #HireJob
+Course Progress::
 ## 📚 Course Progress
 - [ ] (tambahkan kursus jika ada)
 ## ✅ Checklist

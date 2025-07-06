@@ -19,9 +19,41 @@ sort file.name asc
 ## 📚 Kursus
 - [[Resources/Coursera_Tracker]]
 
-## 💡 Insight Mingguan
 
-```dataview
-list from "Roadmap"
-where contains(text, "Insight") and file.name != "Weekly_Template"
+```dataviewjs
+let pages = dv.pages('"Roadmap"')
+    .where(p => p.file.name != "Weekly_Template" && p.Insight);
+
+let allInsights = [];
+
+for (let page of pages) {
+    if (Array.isArray(page.Insight)) {
+        allInsights.push(...page.Insight);
+    } else if (typeof page.Insight === 'string') {
+        allInsights.push(page.Insight);
+    }
+}
+
+dv.header(2, "💡 Insight Mingguan");
+dv.list(allInsights);
+```
+
+## 📘 Course Progress Mingguan
+
+```dataviewjs
+let weeks = dv.pages('"Roadmap"')
+    .where(p => p.file.name.startsWith("Week") && p["Course Progress"]);
+
+let allCourses = [];
+
+for (let page of weeks) {
+    let courses = page["Course Progress"];
+    if (Array.isArray(courses)) {
+        allCourses.push(...courses);
+    } else if (courses) {
+        allCourses.push(courses);
+    }
+}
+
+dv.list(allCourses);
 ```
