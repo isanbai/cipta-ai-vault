@@ -3,6 +3,7 @@
 - Word2Vec, BERT, sentence-transformer
 - Cosine Similarity
 - Setup Qdrant/FAISS
+- Fine-tuning LoRA untuk ranker
 
 #### 📚 Course Progress:
 - [ ] [LangChain for Beginners (DeepLearning.AI)](https://learn.deeplearning.ai/langchain)
