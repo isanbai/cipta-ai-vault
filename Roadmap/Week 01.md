@@ -6,7 +6,7 @@
 - [x] Link atau ringkasan materi
 
 ## ✅ Checklist
-- [ ] Tugas mingguan
+- [x] Tugas mingguan
 
 ## 💡 Insight
 (Catat pemahaman & refleksi)
@@ -25,7 +25,7 @@ Dasar Python & AI Thinking
 ## 📦 Materi
 Script parsing metadata + CV
 ## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
+Catat pemahaman baru atau hal penting dari materi minggu ini.
 ## 🔧 Proyek
 #AmmarAI  #HireJob
 ## 📚 Course Progress
