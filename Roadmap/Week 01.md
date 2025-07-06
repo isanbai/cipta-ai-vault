@@ -17,7 +17,7 @@
 #Roadmap #AI
 
 
----
+
 ## 📝 Catatan Asli
 # 📅 Week 01
 ## 🎯 Fokus
