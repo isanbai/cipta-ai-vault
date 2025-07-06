@@ -12,7 +12,7 @@ Catat pemahaman baru atau hal penting dari materi minggu ini.
 - [x] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome)
 - [ ] [AI Python for Beginners](https://www.coursera.org/learn/ai-python-for-beginners/home/welcome)
 ## ✅ Checklist
-- [x] Review materi minggu ini
+- [ ] Review materi minggu ini
 - [ ] Implementasi praktikal
 - [ ] Update progres di GitHub & Notion
 
