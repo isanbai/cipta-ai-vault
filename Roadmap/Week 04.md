@@ -4,6 +4,7 @@
 - Transfer Learning (ResNet, VGG)
 - Preprocessing gambar
 - Data augmentation
+- Dataset: MNIST, CIFAR, dataset wajah anak
 
 #### 📚 Course Progress:
 - [ ] [Convolutional Neural Networks (Coursera)](https://www.coursera.org/learn/convolutional-neural-networks)
