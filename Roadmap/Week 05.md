@@ -1,19 +1,13 @@
-# 📅 Week 05
-## 🎯 Fokus
-NLP Dasar & Dataset
-## 📦 Materi
-Preprocessing CV + Job Desc
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 5 – NLP & LSTM `#DakwahAI #HireJob`
+#### 🎯 Goals:
+- Tokenisasi, stemming, stopwords
+- LSTM dan sequence modeling
+- Text generation
 
-- [ ] [Transfer Learning for Images](https://www.kaggle.com/learn/computer-vision)
-- [ ] [Hugging Face: Transformers Course](https://huggingface.co/course/chapter1)
+#### 📚 Course Progress:
+- [ ] [Transformers – Hugging Face Course](https://huggingface.co/course/chapter1)
+- [ ] [Transfer Learning for Images (Kaggle)](https://www.kaggle.com/learn/computer-vision)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Auto ceramah dakwah ( #DakwahAI)
+- [ ] Ekstraksi skill dari CV ( #HireJob)

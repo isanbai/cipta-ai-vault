@@ -1,19 +1,14 @@
-# 📅 Week 02
-## 🎯 Fokus
-Neural Network Dasar
-## 📦 Materi
-Klasifikasi MNIST + Backpropagation
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 2 – Data Handling & Visualization `#BarangLagi #AmmarAI`
+#### 🎯 Goals:
+- Numpy dan Pandas dasar
+- Data Cleaning & EDA sederhana
+- Visualisasi awal dengan Matplotlib / Seaborn
 
-- [ ] [Supervised Machine Learning](https://www.coursera.org/learn/machine-learning)
-- [ ] [Python for Data Science](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
+#### 📚 Course Progress:
+- [ ] [Python for Data Science – FreeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
+- [ ] [Supervised Machine Learning – Stanford (Coursera)](https://www.coursera.org/learn/machine-learning)
+- [ ] [Kaggle – Python + Pandas](https://www.kaggle.com/learn/pandas)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Dataset produk: harga & stok ( #BarangLagi)
+- [ ] Metadata konten anak ( #AmmarAI)

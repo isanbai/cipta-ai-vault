@@ -1,19 +1,13 @@
-# 📅 Week 06
-## 🎯 Fokus
-LangChain & Embedding
-## 📦 Materi
-Build RAG untuk jawaban AI
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 6 – TTS & Voice Cloning `#AmmarAI #DakwahAI`
+#### 🎯 Goals:
+- Text to Speech (TTS) pipeline
+- Mel Spectrogram, suara sintetik
+- Tools: Coqui, Bark, ElevenLabs
 
+#### 📚 Course Progress:
 - [ ] [Text Classification with Transformers](https://huggingface.co/course/chapter3)
-- [ ] [TTS dengan Coqui](https://learn.coqui.ai/)
+- [ ] [TTS Coqui Learn](https://learn.coqui.ai/)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Voice anak ( #AmmarAI)
+- [ ] Voice ustadz ( #DakwahAI)

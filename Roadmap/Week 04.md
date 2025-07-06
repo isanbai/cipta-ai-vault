@@ -1,19 +1,16 @@
-# 📅 Week 04
-## 🎯 Fokus
-LSTM & TTS
-## 📦 Materi
-Text-to-speech + prediksi sekuens
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
+# 📅 WEEK 4 – CNN & Vision AI `#AmmarAI #DakwahAI`
+#### 🎯 Goals:
+- CNN, Conv2D, Pooling
+- Transfer Learning (ResNet, VGG)
+- Preprocessing gambar
 
-## 📚 Course Progress
-
-- [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks)
+#### 📚 Course Progress:
+- [ ] [Convolutional Neural Networks (Coursera)](https://www.coursera.org/learn/convolutional-neural-networks)
 - [ ] [Google Teachable Machine](https://teachablemachine.withgoogle.com/)
+- [ ] 🎓 [Deep Learning Specialization (Coursera – Audit)](https://www.coursera.org/specializations/deep-learning)
+- [ ] 📺 [YouTube – CNN & Image Classification (sentdex)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+- [ ] 🧪 [Kaggle – Vision Tutorials](https://www.kaggle.com/learn/computer-vision)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Klasifikasi ekspresi wajah anak ( #AmmarAI)
+- [ ] Layout AI ceramah visual ( #DakwahAI)

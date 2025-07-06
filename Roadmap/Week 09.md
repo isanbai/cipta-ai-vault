@@ -1,20 +1,13 @@
-# 📅 Week 09
+# 📅 WEEK 9 – RAG & LangChain Project `#HireJob #DakwahAI`
+#### 🎯 Goals:
+- LangChain, PromptTemplate
+- RAG pipeline (doc search + LLM)
+- Integrasi LlamaIndex/Qdrant
 
-## 🎯 Fokus
-Audio & Video AI
-## 📦 Materi
-Voice Cloning + Ekstrak Wajah
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+#### 📚 Course Progress:
+- [ ] [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag)
+- [ ] [DeepLearning.AI – LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
 
-- [ ] [Cohere Reranker Demo](https://cohere.com/re-rank)
-- [ ] [RLHF Paper Summary](https://huggingface.co/blog/rlhf)
-
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] RAG untuk CV parsing ( #HireJob)
+- [ ] RAG Qur’an chatbot ( #Dakwah-AI)

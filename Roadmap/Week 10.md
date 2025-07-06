@@ -1,19 +1,15 @@
-# 📅 Week 10
-## 🎯 Fokus
-React + FastAPI
-## 📦 Materi
-Desain UI dan REST API AI
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 10 – Backend API & Docker `#HireJob #BarangLagi`
+#### 🎯 Goals:
+- FastAPI dasar + Docker Compose
+- Endpoint pencocokan CV, produk
 
-- [ ] [Docker for AI](https://www.youtube.com/watch?v=9zUHg7xjIqQ)
-- [ ] [FastAPI Basics](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+#### 📚 Course Progress:
+- [ ] [FastAPI + Docker (YouTube)](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- [ ] [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [ ] [Docker Docs](https://docs.docker.com/get-started/)
+- [ ] [Docker + Python AI – YouTube](https://www.youtube.com/watch?v=9zUHg7xjIqQ)
+- [ ] [Create API with OpenAI + FastAPI](https://www.youtube.com/watch?v=QIYWrTqajQE)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] API Matching ( #HireJob)
+- [ ] Search Produk API ( #BarangLagi)

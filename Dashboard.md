@@ -30,7 +30,7 @@ for (let page of pages) {
   let currentHeading = null;
 
   for (let line of lines) {
-    const headingMatch = line.match(/^##\s+(.*)/);
+    const headingMatch = line.match(/^####\s+(.*)/);
     const checklistMatch = line.match(/^-\s\[( |x|X)\]\s+(.*)/);
 
     if (headingMatch) {

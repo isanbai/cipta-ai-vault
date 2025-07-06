@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Dashboard.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap_AI"
-            }
-          },
-          {
-            "id": "9ecce1c6703027e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Roadmap/Week 13.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Week 13"
+              "title": "Dashboard"
             }
           }
         ],
@@ -157,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Final_Roadmap_AI"
+              "title": "Outline of Dashboard"
             }
           },
           {
@@ -198,42 +184,41 @@
   },
   "active": "c8669539ff6efa98",
   "lastOpenFiles": [
-    "Roadmap/Week 13.md",
-    "Roadmap/Week 12.md",
+    "notes.md",
+    "Dashboard.md",
     "00-Index/Final_Roadmap_AI.md",
+    "Roadmap/Week 01.md",
+    "Cipta_AI_Vault.zip",
+    "00-Index.zip",
+    "Roadmap/Week 13.md",
+    "Roadmap/Week 15.md",
+    "Roadmap/Week 07.md",
+    "Roadmap/Week 12.md",
+    "Roadmap/Week 14.md",
+    "Resources/Coursera_Tracker.md",
+    "Insight/Insight_Template.md",
+    "00-Index/Course Map.md",
+    "00-Index/Weekly_Checklist_AI.md",
     "Roadmap/Week 11.md",
     "Roadmap/Week 10.md",
     "Roadmap/Week 09.md",
     "Roadmap/Week 08.md",
-    "Roadmap/Week 07.md",
     "Roadmap/Week 06.md",
     "Roadmap/Week 05.md",
-    "Roadmap/Week 02.md",
-    "Roadmap/Week 03.md",
     "Roadmap/Week 04.md",
-    "Roadmap/Week 01.md",
-    "Roadmap/Week 14.md",
-    "Roadmap/Week 15.md",
-    "00-Index/Course Map.md",
+    "Roadmap/Week 03.md",
+    "Roadmap/Week 02.md",
     "Cipta_AI_Vault_Final_with_Courses.zip",
-    "Cipta_AI_Vault.zip",
     "90-Proyek Aktif.zip",
-    "Resources/Coursera_Tracker.md",
-    "Dashboard.md",
     "Templates/Weekly_Template.md",
     "Untitled.canvas",
     "2025-07-06.md",
-    "notes.md",
     "Untitled.md",
     "Templates",
     "New folder",
-    "conflict-files-obsidian-git.md",
-    "Roadmap/Weekly_Template.md",
     "Resources",
-    "Proyek/DakwahAI.md",
     "Proyek",
     "Insight",
-    "01-Belajar AI Dasar.zip",
-    "sync_md_overwrite_notion.py"
+    "01-Belajar AI Dasar.zip"
   ]
 }

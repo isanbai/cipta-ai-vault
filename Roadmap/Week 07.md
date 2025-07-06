@@ -1,19 +1,13 @@
-# 📅 Week 07
-## 🎯 Fokus
-Tuning Model LLM
-## 📦 Materi
-LoRA / QLoRA pada model lokal
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 7 – Embedding & Vector Search `#HireJob #BarangLagi`
+#### 🎯 Goals:
+- Sentence Transformers
+- Cosine Similarity
+- Setup Qdrant/FAISS
 
-- [ ] [LangChain for Beginners](https://learn.deeplearning.ai/langchain)
-- [ ] [HuggingFace Embedding Models](https://huggingface.co/spaces/mteb/leaderboard)
+#### 📚 Course Progress:
+- [ ] [LangChain for Beginners (DeepLearning.AI)](https://learn.deeplearning.ai/langchain)
+- [ ] [Intro Qdrant + LlamaIndex](https://qdrant.tech/documentation/)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Matching CV–Lowongan ( #HireJob)
+- [ ] Search produk mirip ( #BarangLagi)

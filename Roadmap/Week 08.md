@@ -1,19 +1,13 @@
-# 📅 Week 08
-## 🎯 Fokus
-Vector Store & Reranker
-## 📦 Materi
-Qdrant + Cohere Reranker
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 8 – LLM Inference & Ollama `#HireJob #DakwahAI`
+#### 🎯 Goals:
+- Setup Ollama, LLaMA, Mistral
+- OpenAI API vs Local Model
+- Prompting & respons
 
+#### 📚 Course Progress:
+- [ ] [Intro HuggingFace NLP](https://huggingface.co/learn/nlp-course/chapter1)
 - [ ] [RAG with OpenAI](https://platform.openai.com/docs/guides/retrieval)
-- [ ] [Intro to Qdrant + LlamaIndex](https://qdrant.tech/documentation/)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Bot Tanya CV ( #HireJob)
+- [ ] Chat Islami ( #Dakwah-AI)

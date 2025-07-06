@@ -1,17 +1,12 @@
-# 📅 Week 03
-## 🎯 Fokus
-CNN & Dataset
-## 📦 Materi
-Ekspresi wajah anak + transfer learning
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
+# 📅 WEEK 3 – Regresi & Klasifikasi Dasar `#HireJob #BarangLagi`
+#### 🎯 Goals:
+- Linear regression, decision tree
+- Klasifikasi sederhana & evaluasi model
+- Clustering & segmentasi
 
-## 📚 Course Progress
-- [ ] [Intro to Neural Networks with Keras](https://www.coursera.org/learn/neural-networks-deep-learning)
-- [ ] (tambahkan kursus jika ada)
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 📚 Course Progress:
+- [ ] [Intro to Neural Networks – Keras (Coursera)](https://www.coursera.org/learn/neural-networks-deep-learning)
+
+#### 🛠️ Project Tasks:
+- [ ] Prediksi skor pelamar ( #HireJob)
+- [ ] Clustering harga produk ( #BarangLagi)

@@ -1,19 +1,13 @@
-# 📅 Week 11
-## 🎯 Fokus
-Docker + Deployment
-## 📦 Materi
-Containerisasi proyek AI
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 11 – Frontend UI (React/Chainlit) `#All Projects`
+#### 🎯 Goals:
+- React dasar, Tailwind, fetch API
+- Chainlit + komponen UI
 
-- [ ] [Build AI Web App with React](https://www.youtube.com/watch?v=9Boz2RH1IF0)
-- [ ] [Cloud Deployment with Railway](https://railway.app/)
+#### 📚 Course Progress:
+- [ ] [Build AI Web App (YouTube)](https://www.youtube.com/watch?v=9Boz2RH1IF0)
+- [ ] [FullstackOpen – React](https://fullstackopen.com/en/)
+- [ ] [React Docs Tutorial](https://react.dev/learn)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+### 🛠️ Project Tasks:
+- [ ] UI Apply Job ( #HireJob)
+- [ ] UI Cari Produk ( #BarangLagi)

@@ -1,19 +1,13 @@
-# 📅 Week 12
-## 🎯 Fokus
-Sertifikasi & Portfolio
-## 📦 Materi
-Pembuatan konten & dokumen akhir
-## 💡 Insight
-- Catat pemahaman baru atau hal penting dari materi minggu ini.
-## 🔧 Proyek
-#AmmarAI  #HireJob
-Course Progress::
-## 📚 Course Progress
+# 📅 WEEK 12 – Monitoring & Deployment `#All Projects`
+#### 🎯 Goals:
+- Hosting lokal (VPS/PC)
+- Logging, PostgreSQL, backup
+- Auto upload konten
 
-- [ ] [Create API with OpenAI + FastAPI](https://www.youtube.com/watch?v=QIYWrTqajQE)
-- [ ] [Final Project Deployment](https://vercel.com/)
+#### 📚 Course Progress:
+- [ ] [Deployment with Vercel](https://vercel.com/)
+- [ ] [Cloud Railway](https://railway.app/)
 
-## ✅ Checklist
-- [ ] Review materi minggu ini
-- [ ] Implementasi praktikal
-- [ ] Update progres di GitHub & Notion
+#### 🛠️ Project Tasks:
+- [ ] Deploy semua project
+- [ ] Testing upload otomatis
