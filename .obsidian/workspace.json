@@ -15,7 +15,7 @@
               "state": {
                 "file": "00-Index/Final_Roadmap_AI.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Final_Roadmap_AI"
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week 01.md",
+                "file": "Roadmap/Week 03.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Week 01"
+              "title": "Week 03"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Roadmap/Week 03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Final_Roadmap_AI"
+              "title": "Outline of Week 03"
             }
           },
           {
@@ -196,10 +197,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e6e7bad41dea3d7f",
+  "active": "9ecce1c6703027e5",
   "lastOpenFiles": [
-    "Roadmap/Week 01.md",
+    "Roadmap/Week 02.md",
     "00-Index/Final_Roadmap_AI.md",
+    "Roadmap/Week 03.md",
+    "Roadmap/Week 01.md",
     "Roadmap/Week 14.md",
     "Roadmap/Week 15.md",
     "Roadmap/Week 13.md",
@@ -212,8 +215,6 @@
     "Roadmap/Week 06.md",
     "Roadmap/Week 05.md",
     "Roadmap/Week 04.md",
-    "Roadmap/Week 03.md",
-    "Roadmap/Week 02.md",
     "00-Index/Course Map.md",
     "Cipta_AI_Vault_Final_with_Courses.zip",
     "Cipta_AI_Vault.zip",

@@ -17,6 +17,10 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 - 📌 Proyek:
   - Script parsing metadata foto anak ( #AmmarAI)
   - Script awal pembaca CV ( #HireJob)
+- 📚 Course Progress
+  - [ ] [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome)
+  - [ ] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome)
+  - [ ] [AI Python for Beginners](https://www.coursera.org/learn/ai-python-for-beginners/home/welcome)
 
 ### 🗓 Week 2 – Numpy, Pandas & Visualisasi `#BarangLagi #AmmarAI`
 - Operasi array & dataframe
@@ -24,6 +28,9 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 - 📌 Proyek:
   - Dataset BarangLagi: harga, produk ( #BarangLagi)
   - Metadata konten anak ( #AmmarAI)
+- 📚 Course Progress
+  - [ ] [Supervised Machine Learning](https://www.coursera.org/learn/machine-learning)
+  - [ ] [Python for Data Science](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 ### 🗓 Week 3 – ML Dasar: Regresi & Klasifikasi `#HireJob #BarangLagi`
 - Linear regression, decision tree
@@ -31,7 +38,8 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 - 📌 Proyek:
   - Prediksi skor pelamar ( #HireJob)
   - Cluster harga produk ( #BarangLagi)
-
+- 📚 Course Progress
+  - [ ] [Intro to Neural Networks with Keras](https://www.coursera.org/learn/neural-networks-deep-learning)
 ---
 
 ## 🔰 LEVEL 2 – APPLIED AI
