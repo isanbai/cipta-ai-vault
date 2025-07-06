@@ -1,3 +1,3 @@
 ## ✅ Checklist
-- [ ] Tonton kursus CNN
-- [x] Baca artikel transfer learning
+- [x] Tonton kursus CNN
+- [ ] Baca artikel transfer learning

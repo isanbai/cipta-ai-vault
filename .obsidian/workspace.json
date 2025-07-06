@@ -150,6 +150,16 @@
               "icon": "lucide-list",
               "title": "Outline of Week 01"
             }
+          },
+          {
+            "id": "1020b885ff8e195e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 3
@@ -175,6 +185,8 @@
   "lastOpenFiles": [
     "Roadmap/Week 15.md",
     "Dashboard.md",
+    "Templates/Weekly_Template.md",
+    "Roadmap/Week 11.md",
     "Untitled.canvas",
     "2025-07-06.md",
     "Roadmap/Week 01.md",
@@ -186,7 +198,6 @@
     "Roadmap/Week 03.md",
     "Roadmap/Week 13.md",
     "Untitled.md",
-    "Templates/Weekly_Template.md",
     "Templates",
     "New folder",
     "conflict-files-obsidian-git.md",
@@ -206,7 +217,6 @@
     "sync_md_overwrite_notion.py",
     "Roadmap/Week 05.md",
     "Roadmap/Week 08.md",
-    "Roadmap/Week 11.md",
     "update_weeks_with_md_content.py",
     "desktop.ini"
   ]
