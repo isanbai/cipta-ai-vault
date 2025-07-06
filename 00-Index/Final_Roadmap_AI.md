@@ -6,9 +6,8 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ## 🔰 LEVEL 1 – FUNDAMENTAL
 ### 🟩 Dasar AI & ML
-- 🎓 [AI For Everyone – Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone)
-- 🧠 [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
-- 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
+-  [  ] 🧠 [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
+-  [  ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
 
 ### 🗓 Week 1 – Dasar Python & AI Thinking `#AmmarAI #HireJob`
 - Instalasi Python, VSCode, Colab
@@ -44,38 +43,52 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ## 🔰 LEVEL 2 – APPLIED AI
 ### 🟨 Deep Learning & Vision
-- 🎓 [Deep Learning Specialization (Coursera – Audit)](https://www.coursera.org/specializations/deep-learning)
-- 📺 [YouTube – CNN & Image Classification (sentdex)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
-- 🧪 [Kaggle – Vision Tutorials](https://www.kaggle.com/learn/computer-vision)
+-  [  ] 🎓 [Deep Learning Specialization (Coursera – Audit)](https://www.coursera.org/specializations/deep-learning)
+-  [  ] 📺 [YouTube – CNN & Image Classification (sentdex)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+-  [  ] 🧪 [Kaggle – Vision Tutorials](https://www.kaggle.com/learn/computer-vision)
 
 ### 🗓 Week 4 – CNN & Vision AI `#AmmarAI #DakwahAI`
 - Arsitektur CNN, Conv2D, pooling
 - Transfer learning: ResNet, VGG
 - 📌 Proyek:
-  - Deteksi ekspresi wajah anak (Ammar-AI)
-  - Layout ceramah visual (Dakwah-AI)
-
+  - Deteksi ekspresi wajah anak ( #AmmarAI)
+  - Layout ceramah visual ( #DakwahAI)
+- 📚 Course Progress
+  - [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks)
+  - [ ] [Google Teachable Machine](https://teachablemachine.withgoogle.com/)
+  
 ### 🗓 Week 5 – NLP Dasar & LSTM `#DakwahAI #HireJob`
 - Tokenisasi, stemming, stopwords
 - LSTM, text generation
 - 📌 Proyek:
-  - Auto ceramah dakwah (Dakwah-AI)
-  - Ekstraksi skill CV (HireJob)
-
+  - Auto ceramah dakwah ( #DakwahAI)
+  - Ekstraksi skill CV ( #HireJob)
+- 📚 Course Progress
+  - [ ] [Transfer Learning for Images](https://www.kaggle.com/learn/computer-vision)
+  - [ ] [Hugging Face: Transformers Course](https://huggingface.co/course/chapter1)
+  
 ### 🗓 Week 6 – TTS & Voice Cloning `#AmmarAI #DakwahAI`
 - TTS pipeline, Mel Spectrogram
 - Coqui, Bark, ElevenLabs
 - 📌 Proyek:
-  - Suara anak (Ammar-AI)
-  - Voice ustadz (Dakwah-AI)
-
+  - Suara anak ( #AmmarAI)
+  - Voice ustadz ( #DakwahAI)
+- 📚 Course Progress
+  - [ ] [Text Classification with Transformers](https://huggingface.co/course/chapter3)
+  - [ ] [TTS dengan Coqui](https://learn.coqui.ai/)
 ---
 
 ## 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION
 ### 🟥 LLM & LangChain
-- 📘 [LangChain Documentation](https://docs.langchain.com/)
-- 🎓 [Intro to Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1)
-- 💡 [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag)
+- [ ] 📘 [LangChain Documentation](https://docs.langchain.com/)
+- [ ] 🎓 [Intro to Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1)
+- [ ] 💡 [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag)
+- [ ] [LangChain for Beginners](https://learn.deeplearning.ai/langchain)
+- [ ] [HuggingFace Embedding Models](https://huggingface.co/spaces/mteb/leaderboard)
+- [ ] [RAG with OpenAI](https://platform.openai.com/docs/guides/retrieval)
+- [ ] [Intro to Qdrant + LlamaIndex](https://qdrant.tech/documentation/)
+- [ ] [Cohere Reranker Demo](https://cohere.com/re-rank)
+- [ ] [RLHF Paper Summary](https://huggingface.co/blog/rlhf)
 
 ### 🗓 Week 7 – Embedding & Vector DB `#HireJob #BarangLagi`
 - Sentence Transformers, cosine similarity
@@ -102,9 +115,15 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ## 🔰 LEVEL 4 – DEPLOYMENT & UI
 ### 🟦 Deployment & UI
-- 🐍 [Fullstack FastAPI React – FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA)
-- 📦 [Docker Getting Started – Docker Docs](https://docs.docker.com/get-started/)
-- 🧑‍🎨 [FullstackOpen – React + Backend](https://fullstackopen.com/en/)
+- [ ] 🐍 [Fullstack FastAPI React – FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- [ ] 📦 [Docker Getting Started – Docker Docs](https://docs.docker.com/get-started/)
+- [ ] 🧑‍🎨 [FullstackOpen – React + Backend](https://fullstackopen.com/en/)
+- [ ] [Docker for AI](https://www.youtube.com/watch?v=9zUHg7xjIqQ)
+- [ ] [FastAPI Basics](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- [ ] [Build AI Web App with React](https://www.youtube.com/watch?v=9Boz2RH1IF0)
+- [ ] [Cloud Deployment with Railway](https://railway.app/)
+- [ ] [Create API with OpenAI + FastAPI](https://www.youtube.com/watch?v=QIYWrTqajQE)
+- [ ] [Final Project Deployment](https://vercel.com/)
 
 ### 🗓 Week 10 – API + FastAPI + Docker `#HireJob #BarangLagi`
 - FastAPI, Docker Compose
