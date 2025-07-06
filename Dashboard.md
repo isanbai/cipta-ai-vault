@@ -16,9 +16,29 @@ sort file.name asc
 - [[Proyek/HireJob]]
 - [[Proyek/DakwahAI]]
 
-## 📚 Kursus
-- [[Resources/Coursera_Tracker]]
+## 📚 Course
+```dataviewjs
+const files = dv.pages('"Roadmap"')
+  .where(p => p.file.name.startsWith("Week"));
 
+let allCourses = [];
+
+for (let page of files) {
+  const contents = await dv.io.load(page.file.path);
+  const sectionRegex = /## 📚 Course Progress([\s\S]*?)(\n## |$)/g;
+  const match = sectionRegex.exec(contents);
+  
+  if (match && match[1]) {
+    const checklistRegex = /^- \[[ xX]\] .+/gm;
+    const tasks = match[1].match(checklistRegex);
+    if (tasks) {
+      allCourses.push(...tasks);
+    }
+  }
+}
+
+dv.paragraph(allCourses.join('\n'));
+```
 
 ```dataviewjs
 let pages = dv.pages('"Roadmap"')

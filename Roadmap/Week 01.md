@@ -13,9 +13,9 @@ Insight:: Fungsi split() di Python
 #AmmarAI  #HireJob
 
 ## 📚 Course Progress
-Course Progress:: - [x] [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome)
-Course Progress:: - [x] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome)
-Course Progress:: - [ ] [AI Python for Beginners](https://www.coursera.org/learn/ai-python-for-beginners/home/welcome)
+- [x] [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome)
+- [x] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome)
+- [ ] [AI Python for Beginners](https://www.coursera.org/learn/ai-python-for-beginners/home/welcome)
 
 ## ✅ Checklist
 - [ ] Review materi minggu ini

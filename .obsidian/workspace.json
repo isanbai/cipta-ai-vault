@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week 01.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01"
+              "title": "Dashboard"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "c8669539ff6efa98",
   "lastOpenFiles": [
-    "Dashboard.md",
     "Roadmap/Week 01.md",
+    "Dashboard.md",
     "Roadmap/Week 02.md",
     "Roadmap/Week 15.md",
     "Cipta_AI_Vault.zip",
