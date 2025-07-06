@@ -3,6 +3,7 @@
 - CNN, Conv2D, Pooling
 - Transfer Learning (ResNet, VGG)
 - Preprocessing gambar
+- Data augmentation
 
 #### 📚 Course Progress:
 - [ ] [Convolutional Neural Networks (Coursera)](https://www.coursera.org/learn/convolutional-neural-networks)

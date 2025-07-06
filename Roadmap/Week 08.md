@@ -10,4 +10,5 @@
 
 #### 🛠️ Project Tasks:
 - [ ] Bot Tanya CV ( #HireJob)
+- [ ] Parsing CV pakai LLM ( #HireJob )
 - [ ] Chat Islami ( #Dakwah-AI)

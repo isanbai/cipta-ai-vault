@@ -1,7 +1,10 @@
 # 📅 WEEK 10 – Backend API & Docker `#HireJob #BarangLagi`
 #### 🎯 Goals:
 - FastAPI dasar + Docker Compose
+- FastAPI untuk serving model
+- Pembuatan API CV parsing / scoring
 - Endpoint pencocokan CV, produk
+- Integrasi ke frontend React
 
 #### 📚 Course Progress:
 - [ ] [FastAPI + Docker (YouTube)](https://www.youtube.com/watch?v=0sOvCWFmrtA)
@@ -12,4 +15,5 @@
 
 #### 🛠️ Project Tasks:
 - [ ] API Matching ( #HireJob)
+- [ ] UI live scoring pelamar ( #HireJob )
 - [ ] Search Produk API ( #BarangLagi)

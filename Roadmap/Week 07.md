@@ -1,6 +1,6 @@
 # 📅 WEEK 7 – Embedding & Vector Search `#HireJob #BarangLagi`
 #### 🎯 Goals:
-- Sentence Transformers
+- Word2Vec, BERT, sentence-transformer
 - Cosine Similarity
 - Setup Qdrant/FAISS
 
@@ -10,4 +10,5 @@
 
 #### 🛠️ Project Tasks:
 - [ ] Matching CV–Lowongan ( #HireJob)
+- [ ] Embedding CV dan jobdesc di Qdrant ( #HireJob )
 - [ ] Search produk mirip ( #BarangLagi)

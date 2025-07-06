@@ -1,7 +1,10 @@
 # 📅 WEEK 9 – RAG & LangChain Project `#HireJob #DakwahAI`
 #### 🎯 Goals:
-- LangChain, PromptTemplate
+- LangChain & chain logic
+- PromptTemplate, RetrieverChain, ConversationalChain
+- Setup vector store (Qdrant/FAISS)
 - RAG pipeline (doc search + LLM)
+- Integrasi LangChain + LLM + vector DB
 - Integrasi LlamaIndex/Qdrant
 
 #### 📚 Course Progress:
@@ -10,4 +13,5 @@
 
 #### 🛠️ Project Tasks:
 - [ ] RAG untuk CV parsing ( #HireJob)
+- [ ] Sistem pencarian & jawaban berbasis CV/job ( #HireJob )
 - [ ] RAG Qur’an chatbot ( #Dakwah-AI)

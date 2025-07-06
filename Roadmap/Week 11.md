@@ -10,4 +10,5 @@
 
 ### 🛠️ Project Tasks:
 - [ ] UI Apply Job ( #HireJob)
+- [ ] UI live scoring pelamar ( #HireJob )
 - [ ] UI Cari Produk ( #BarangLagi)

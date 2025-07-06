@@ -2,6 +2,8 @@
 #### 🎯 Goals:
 - Tokenisasi, stemming, stopwords
 - LSTM dan sequence modeling
+- RNN vs LSTM
+- Bag-of-words, TF-IDF
 - Text generation
 
 #### 📚 Course Progress:
