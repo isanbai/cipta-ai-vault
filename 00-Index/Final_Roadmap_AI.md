@@ -5,6 +5,10 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 ---
 
 ## 🔰 LEVEL 1 – FUNDAMENTAL
+### 🟩 Dasar AI & ML
+- 🎓 [AI For Everyone – Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone)
+- 🧠 [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
+- 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
 
 ### 🗓 Week 1 – Dasar Python & AI Thinking `#AmmarAI #HireJob`
 - Instalasi Python, VSCode, Colab
@@ -30,7 +34,11 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ---
 
-## 🟨 LEVEL 2 – APPLIED AI
+## 🔰 LEVEL 2 – APPLIED AI
+### 🟨 Deep Learning & Vision
+- 🎓 [Deep Learning Specialization (Coursera – Audit)](https://www.coursera.org/specializations/deep-learning)
+- 📺 [YouTube – CNN & Image Classification (sentdex)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+- 🧪 [Kaggle – Vision Tutorials](https://www.kaggle.com/learn/computer-vision)
 
 ### 🗓 Week 4 – CNN & Vision AI `#AmmarAI #DakwahAI`
 - Arsitektur CNN, Conv2D, pooling
@@ -55,7 +63,11 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ---
 
-## 🟥 LEVEL 3 – LLM & SYSTEM INTEGRATION
+## 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION
+### 🟥 LLM & LangChain
+- 📘 [LangChain Documentation](https://docs.langchain.com/)
+- 🎓 [Intro to Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1)
+- 💡 [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag)
 
 ### 🗓 Week 7 – Embedding & Vector DB `#HireJob #BarangLagi`
 - Sentence Transformers, cosine similarity
@@ -80,7 +92,11 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 
 ---
 
-## 🟩 LEVEL 4 – DEPLOYMENT & UI
+## 🔰 LEVEL 4 – DEPLOYMENT & UI
+### 🟦 Deployment & UI
+- 🐍 [Fullstack FastAPI React – FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- 📦 [Docker Getting Started – Docker Docs](https://docs.docker.com/get-started/)
+- 🧑‍🎨 [FullstackOpen – React + Backend](https://fullstackopen.com/en/)
 
 ### 🗓 Week 10 – API + FastAPI + Docker `#HireJob #BarangLagi`
 - FastAPI, Docker Compose
@@ -121,33 +137,6 @@ Versi ini merupakan gabungan terstruktur dari seluruh roadmap kamu, tanpa duplik
 | Dakwah-AI   | Chatbot Islami + voice TTS + ceramah bergambar             |
 | HireJob     | Parsing CV, pencocokan, chatbot HR, AI Interview           |
 | BarangLagi  | Search produk + UI + chatbot rekomendasi belanja           |
-
-
----
-
-## 💸 RENCANA BELAJAR AI HEMAT BIAYA
-
-Rencana ini cocok untuk kamu yang ingin belajar AI secara maksimal tanpa biaya besar, sambil mengikuti roadmap proyek nyata (Ammar-AI, Dakwah-AI, HireJob, BarangLagi).
-
-### 🟩 Level 1 – Dasar AI & ML
-- 🎓 [AI For Everyone – Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone)
-- 🧠 [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
-- 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
-
-### 🟨 Level 2 – Deep Learning & Vision
-- 🎓 [Deep Learning Specialization (Coursera – Audit)](https://www.coursera.org/specializations/deep-learning)
-- 📺 [YouTube – CNN & Image Classification (sentdex)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
-- 🧪 [Kaggle – Vision Tutorials](https://www.kaggle.com/learn/computer-vision)
-
-### 🟥 Level 3 – LLM & LangChain
-- 📘 [LangChain Documentation](https://docs.langchain.com/)
-- 🎓 [Intro to Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1)
-- 💡 [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag)
-
-### 🟦 Level 4 – Deployment & UI
-- 🐍 [Fullstack FastAPI React – FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA)
-- 📦 [Docker Getting Started – Docker Docs](https://docs.docker.com/get-started/)
-- 🧑‍🎨 [FullstackOpen – React + Backend](https://fullstackopen.com/en/)
 
 ### 🔧 Tools Gratis Pendukung
 - 💻 VSCode: https://code.visualstudio.com/

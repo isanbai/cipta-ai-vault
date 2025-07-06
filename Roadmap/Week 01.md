@@ -13,8 +13,8 @@ Script parsing metadata + CV
 #AmmarAI  #HireJob
 
 ## 📚 Course Progress
-- [x] [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome)
-- [x] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome)
+- [x] [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/welcome) ✅ 2025-06-22
+- [x] [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone/home/welcome) ✅ 2025-06-29
 - [ ] [AI Python for Beginners](https://www.coursera.org/learn/ai-python-for-beginners/home/welcome)
 
 ## ✅ Checklist
