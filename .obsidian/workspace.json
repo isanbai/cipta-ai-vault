@@ -167,13 +167,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "ab7248df75320a04",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Untitled.md",
     "Roadmap/Week 01.md",
+    "Templates/Weekly_Template.md",
+    "Templates",
+    "New folder",
+    "conflict-files-obsidian-git.md",
     "Roadmap/Weekly_Template.md",
     "Dashboard.md",
     "Roadmap/Week 04.md",
@@ -202,11 +207,7 @@
     "Roadmap/Week 12.md",
     "Roadmap/Week 14.md",
     "Roadmap/Week 09.md",
-    "Roadmap/Week 06.md",
-    "Roadmap Mingguan/week-01.md",
     "update_weeks_with_md_content.py",
-    "desktop.ini",
-    "update_or_create_weeks_with_status (1).py",
-    "update_or_create_weeks_with_status.py"
+    "desktop.ini"
   ]
 }
