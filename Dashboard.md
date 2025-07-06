@@ -1,5 +1,14 @@
 # 🧭 Dashboard Cipta AI Vault
 
+## ✅ Progress Mingguan
+
+```dataview
+table file.link as "Minggu", length(filter(list, (f) => contains(f.text, "- [x]"))) as "Checklist Selesai"
+from "Roadmap"
+where file.name != "Weekly_Template"
+sort file.name asc
+```
+
 ## 📌 Roadmap Mingguan
 - [[Roadmap/Week 01]]
 - [[Roadmap/Week 02]]
