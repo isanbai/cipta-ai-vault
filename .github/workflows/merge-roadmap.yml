@@ -5,6 +5,7 @@ on:
     paths:
       - 'Roadmap/**.md'
       - '.github/workflows/merge-roadmap.yml'
+  workflow_dispatch:
 
 jobs:
   merge:
