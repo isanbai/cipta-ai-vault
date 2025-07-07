@@ -1,5 +1,7 @@
 name: Merge Roadmap Weekly Files
 
+permissions:
+  contents: write
 on:
   push:
     branches:
@@ -32,8 +34,6 @@ jobs:
           fi
 
       - name: Commit and Push if Changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
@@ -43,7 +43,7 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update Final_Roadmap.md from weekly roadmap"
-            git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}"
-
+            
+            git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push
           fi
