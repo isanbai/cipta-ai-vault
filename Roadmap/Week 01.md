@@ -16,3 +16,6 @@
 - [ ] Buat script parsing metadata foto ( #AmmarAI)
 - [ ] Data awal pertumbuhan anak ( #Ammar-AI)
 - [ ] Script awal pembaca CV ( #HireJob)
+
+[[ins_01]]
+

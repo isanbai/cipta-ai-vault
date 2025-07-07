@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ab2107cbd11b60e3",
+        "id": "0ce8f79c0e8ce22e",
         "type": "tabs",
         "children": [
           {
-            "id": "c8669539ff6efa98",
+            "id": "7c77d99d672df4d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Insight/ins_01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap_AI"
+              "title": "ins_01"
             }
           }
         ],
@@ -46,6 +46,20 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "c8669539ff6efa98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Insight/ins_01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ins_01"
             }
           },
           {
@@ -143,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Insight/ins_01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Final_Roadmap_AI"
+              "title": "Outline of ins_01"
             }
           },
           {
@@ -182,12 +196,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c8669539ff6efa98",
+  "active": "7c77d99d672df4d6",
   "lastOpenFiles": [
-    "Roadmap/Week 13.md",
+    "Roadmap/Week 01.md",
+    "Insight/ins_01.md",
+    "Insight/Insight_Template.md",
     "00-Index/Final_Roadmap_AI.md",
-    "Roadmap/Week 04.md",
     "Roadmap/Week 07.md",
+    "Dashboard.md",
+    "Roadmap/Week 13.md",
+    "Roadmap/Week 04.md",
     "Roadmap/Week 12.md",
     "Roadmap/Week 10.md",
     "Roadmap/Week 11.md",
@@ -195,15 +213,12 @@
     "Roadmap/Week 08.md",
     "Roadmap/Week 05.md",
     "Roadmap/Week 03.md",
-    "Roadmap/Week 01.md",
-    "Dashboard.md",
     "notes.md",
     "Cipta_AI_Vault.zip",
     "00-Index.zip",
     "Roadmap/Week 15.md",
     "Roadmap/Week 14.md",
     "Resources/Coursera_Tracker.md",
-    "Insight/Insight_Template.md",
     "00-Index/Course Map.md",
     "00-Index/Weekly_Checklist_AI.md",
     "Roadmap/Week 06.md",
