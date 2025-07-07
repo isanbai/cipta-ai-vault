@@ -58,3 +58,24 @@ import helper_functions
 helper_functions.print_llm_response("What is the capital of France?")
 from helper_functions import *
 ```
+```
+# Pandas and Matplotlib
+# Dataset adapted from here https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho
+
+import pandas as pd
+data = pd.read_csv('car_data.csv')
+print(data)
+print(data[data["Price"]>=10000])
+filtered_data = data[data["Year"]==2015]
+print(filtered_data["Price"].median())
+
+import matplotlib.pyplot as plt
+plt.scatter(data["Kilometer"], data["Price"], color='red')
+plt.title('Car Price vs. Kilometers Driven', fontsize=16)
+plt.xlabel('Kilometers Driven')
+plt.ylabel('Price (in USD)')
+# Add the grid
+plt.grid(True)
+# Display the plot
+plt.show()
+```
