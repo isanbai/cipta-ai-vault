@@ -43,6 +43,7 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update Final_Roadmap.md from weekly roadmap"
-            git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+            git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}"
+
             git push
           fi
