@@ -31,11 +31,30 @@ extract_section() {
 }
 
 # 📚 Course Progress
-echo "## 📚 Course Progress" >> "$DASHBOARD_FILE"
+echo "## 📚 Course Progress" > "$DASHBOARD_FILE"
 echo "" >> "$DASHBOARD_FILE"
+echo "| Week | Course | Status |" >> "$DASHBOARD_FILE"
+echo "|------|--------|--------|" >> "$DASHBOARD_FILE"
 
-for file in Roadmap/Week*.md; do
-  extract_section "📚 Course Progress:" "$file" | grep -E '^\- \[[ xX]\]' >> "$DASHBOARD_FILE"
+for f in Roadmap/Week*.md; do
+  WEEK=$(basename "$f" .md)
+  IN_COURSE_SECTION=false
+  while IFS= read -r line; do
+    if [[ $line == "## 📚 Course Progress"* ]]; then
+      IN_COURSE_SECTION=true
+      continue
+    fi
+
+    if [[ $IN_COURSE_SECTION == true ]]; then
+      if [[ $line == "## "* ]]; then
+        break
+      fi
+
+      if [[ $line =~ \[[xX ]\]\ \[.*\]\(.*\) ]]; then
+        STATUS=$(echo "$line" | grep -o "\[[xX ]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
+        COURSE=$(echo "$line" | sed -E 's/^\[[xX ]\] //')
+        echo "| $WEEK | $COURSE | $STATUS |" >> "$DASHBOARD_FILE"
+      fi
+    fi
+  done < "$f"
 done
-
-echo "" >> "$DASHBOARD_FILE"
