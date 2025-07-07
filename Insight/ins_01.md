@@ -70,8 +70,7 @@ filtered_data = data[data["Year"]==2015]
 print(filtered_data["Price"].median())
 
 import matplotlib.pyplot as plt
-plt.scatter(data["Kilometer"], data["Price"], color='red')
-plt.title('Car Price vs. Kilometers Driven', fontsize=16)
+\plt.title('Car Price vs. Kilometers Driven', fontsize=16)
 plt.xlabel('Kilometers Driven')
 plt.ylabel('Price (in USD)')
 # Add the grid
