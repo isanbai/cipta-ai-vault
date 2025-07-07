@@ -40,7 +40,7 @@ for f in Roadmap/Week*.md; do
   WEEK=$(basename "$f" .md)
   IN_COURSE_SECTION=false
   while IFS= read -r line; do
-    if [[ $line == "## 📚 Course Progress:"* ]]; then
+    if [[ $line == "#### 📚 Course Progress:"* ]]; then
       IN_COURSE_SECTION=true
       continue
     fi
