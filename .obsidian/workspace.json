@@ -15,7 +15,7 @@
               "state": {
                 "file": "Roadmap/Week01.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Week01"
