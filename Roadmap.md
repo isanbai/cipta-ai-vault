@@ -1,12 +1,12 @@
 # 🧭 Roadmap – Cipta AI Vault
 ## 🔰 LEVEL 1 – FUNDAMENTAL
-  ### 🟩 Dasar AI & ML
+- 🟩 Dasar AI & ML
 ## 🔰 LEVEL 2 – APPLIED AI
-  ### 🟨 Deep Learning & Vision
+- 🟨 Deep Learning & Vision
 ## 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION
-  ### 🟥 LLM & LangChain
+- 🟥 LLM & LangChain
 ## 🔰 LEVEL 4 – DEPLOYMENT & UI
-  ### 🟦 Deployment & UI
+- 🟦 Deployment & UI
 
 ### 🎯 OUTCOME AKHIR
 | Proyek | Output Akhir |
