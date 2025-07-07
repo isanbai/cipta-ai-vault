@@ -19,4 +19,4 @@
 - [ ] Script awal pembaca CV ( #HireJob)
 
 [[ins_01]]
-
+[Insight](/Insight/ins_01.md)
