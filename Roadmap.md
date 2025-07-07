@@ -1,3 +1,19 @@
+# 🧭 Roadmap – Cipta AI Vault
+# 🔰 LEVEL 1 – FUNDAMENTAL
+## 🟩 Dasar AI & ML
+# 🔰 LEVEL 2 – APPLIED AI
+## 🟨 Deep Learning & Vision
+# 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION
+## 🟥 LLM & LangChain
+# 🔰 LEVEL 4 – DEPLOYMENT & UI
+## 🟦 Deployment & UI
+
+### 🎯 OUTCOME AKHIR
+| Proyek | Output Akhir |
+|---|---|
+| Ammar-AI | Video anak 3x3 + suara AI + upload otomatis |
+| Dakwah-AI | Chatbot Islami + voice TTS + ceramah bergambar |
+| HireJob | Parsing CV, pencocokan, chatbot HR, AI Interview |
 | BarangLagi | Search produk + UI + chatbot rekomendasi belanja |
 
 ## 🗂️ Week01
