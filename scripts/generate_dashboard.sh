@@ -16,7 +16,7 @@ for file in Roadmap/Week*.md; do
   WEEK=$(basename "$file" .md)
   TOTAL=$(grep -cE '^\s*[-*] \[.\]' "$file")
   DONE=$(grep -cE '^\s*[-*] \[x\]' "$file")
-  echo "| [$WEEK]($file) | $TOTAL | $DONE |" >> "$DASHBOARD_FILE"
+  echo "| [$WEEK](/$file) | $TOTAL | $DONE |" >> "$DASHBOARD_FILE"
 done
 
 echo "" >> "$DASHBOARD_FILE"
@@ -29,22 +29,12 @@ extract_section() {
     sed -e '/^$/d' -e 's/^ *//'
 }
 
-# 💡 Insight
-echo "## 💡 Insight" >> "$DASHBOARD_FILE"
-echo "" >> "$DASHBOARD_FILE"
-
-for file in Roadmap/Week*.md; do
-  extract_section "💡 Insight" "$file" | grep -E '^\- ' >> "$DASHBOARD_FILE"
-done
-
-echo "" >> "$DASHBOARD_FILE"
-
 # 📚 Course Progress
 echo "## 📚 Course Progress" >> "$DASHBOARD_FILE"
 echo "" >> "$DASHBOARD_FILE"
 
 for file in Roadmap/Week*.md; do
-  extract_section "📚 Course Progress" "$file" | grep -E '^\- \[[ xX]\]' >> "$DASHBOARD_FILE"
+  extract_section "📚 Course Progress:" "$file" | grep -E '^\- \[[ xX]\]' >> "$DASHBOARD_FILE"
 done
 
 echo "" >> "$DASHBOARD_FILE"
