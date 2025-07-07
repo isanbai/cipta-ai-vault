@@ -22,6 +22,8 @@ jobs:
 
       - name: Generate Dashboard.md
         run: ./scripts/generate_dashboard.sh
+        shell: bash
+
 
       - name: Commit and Push if Changes
         run: |
