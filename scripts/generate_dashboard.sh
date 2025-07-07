@@ -42,14 +42,16 @@ for f in "$ROADMAP_DIR"/Week*.md; do
             break
         fi
 
-        if [[ "$IN_COURSE_SECTION" == true && "$line" =~ ^- \[[\ xX]\] ]]; then
-            # Ambil status checklist
-            STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
-            
-            # Ambil course markdown link
-            COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
-            
-            echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $COURSE | $STATUS |" >> "$DASHBOARD_FILE"
+        if [[ "$IN_COURSE_SECTION" == true ]]; then
+            if [[ "$line" =~ ^- \[[\ xX]\] ]]; then
+                # Ambil status checklist
+                STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
+                
+                # Ambil course markdown link
+                COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
+                
+                echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $COURSE | $STATUS |" >> "$DASHBOARD_FILE"
+            fi
         fi
     done < "$f"
 done
