@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week 02.md",
+                "file": "Roadmap/Week01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 02"
+              "title": "Week01"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Roadmap/Week 02.md",
+                "file": "Roadmap/Week01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 02"
+              "title": "Outline of Week01"
             }
           },
           {
@@ -198,36 +198,37 @@
   },
   "active": "7c77d99d672df4d6",
   "lastOpenFiles": [
-    "Roadmap/Week 01.md",
+    "Roadmap/Week12.md",
+    "Roadmap/Week14.md",
+    "Roadmap/Week10.md",
+    "Roadmap/Week08.md",
+    "Roadmap/Week06.md",
+    "00-Index/Final_Roadmap_AI.md",
+    "Final_Roadmap.md",
+    "Insight/ins_01.md",
     "Dashboard.md",
+    "Roadmap/Week.md",
+    "Roadmap/Week01.md",
+    "Roadmap/Week03.md",
+    "Dashboard_ori.md",
+    "Roadmap/Week02.md",
     "scripts/generate_dashboard.sh",
     "scripts/New Text Document.txt",
     "scripts",
     "New folder",
-    "Dashboard_ori.md",
     "Dashboard - Copy.md",
     "Cipta_AI_Vault.zip",
     "Final_Roadmap.zip",
-    "Insight/ins_01.md",
-    "Roadmap/Week 02.md",
-    "Roadmap/Week 14.md",
-    "Roadmap/Week 13.md",
-    "Roadmap/Week 12.md",
-    "Roadmap/Week 11.md",
-    "Roadmap/Week 10.md",
-    "Roadmap/Week 09.md",
-    "Roadmap/Week 08.md",
-    "Roadmap/Week 07.md",
-    "Roadmap/Week 06.md",
-    "Roadmap/Week 05.md",
-    "Roadmap/Week 04.md",
-    "Roadmap/Week 03.md",
-    "00-Index/Final_Roadmap_AI.md",
-    "Final_Roadmap.md",
+    "Roadmap/Week13.md",
+    "Roadmap/Week11.md",
+    "Roadmap/Week09.md",
+    "Roadmap/Week07.md",
+    "Roadmap/Week05.md",
+    "Roadmap/Week04.md",
     "Insight/Insight_Template.md",
     "notes.md",
     "00-Index.zip",
-    "Roadmap/Week 15.md",
+    "Roadmap/Week15.md",
     "Resources/Coursera_Tracker.md",
     "00-Index/Course Map.md",
     "Cipta_AI_Vault_Final_with_Courses.zip",

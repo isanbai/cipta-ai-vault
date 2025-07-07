@@ -8,22 +8,22 @@
 -  [ ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
 
 
-![[Week 01]]
+![[Week01]]
 
-![[Week 02]]
+![[Week02]]
 
-![[Week 03]]
+![[Week03]]
 
 ---
 
 # 🔰 LEVEL 2 – APPLIED AI
 ## 🟨 Deep Learning & Vision
 
-![[Week 04]]
+![[Week04]]
 
-![[Week 05]]
+![[Week05]]
 
-![[Week 06]]
+![[Week06]]
 
 ---
 
@@ -37,11 +37,11 @@
 - [ ] [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/)
 - [ ] [Ollama Documentation](https://ollama.com/library)
 
-![[Week 07]]
+![[Week07]]
 
-![[Week 08]]
+![[Week08]]
 
-![[Week 09]]
+![[Week09]]
 
 ---
 
@@ -49,17 +49,17 @@
 ## 🟦 Deployment & UI
 
 
-![[Week 10]]
+![[Week10]]
 
-![[Week 11]]
+![[Week11]]
 
-![[Week 12]]
+![[Week12]]
 
 ---
 
-![[Week 13]]
+![[Week13]]
 
-![[Week 14]]
+![[Week14]]
 
 ---
 
