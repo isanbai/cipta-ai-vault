@@ -12,6 +12,7 @@
 - [ ] [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python)
 - [ ] [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
 - [ ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
+
 #### 🛠️ Project Tasks:
 - [ ] Buat script parsing metadata foto ( #AmmarAI)
 - [ ] Data awal pertumbuhan anak ( #Ammar-AI)
