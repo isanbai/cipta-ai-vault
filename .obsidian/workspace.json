@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insight/ins_01.md",
+                "file": "00-Index/Final_Roadmap_AI.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "ins_01"
+              "title": "Final_Roadmap_AI"
             }
           }
         ],
@@ -198,12 +198,15 @@
   },
   "active": "aee2c11bc22a1688",
   "lastOpenFiles": [
-    "Insight/Insight_Template.md",
+    "00-Index/Roadmap HR Hybrid AI System.md",
+    "00-Index/Roadmap_AI_12Bln.md",
+    "00-Index/Final_Roadmap_AI.md",
     "Insight/ins_01.md",
+    "Roadmap.md",
+    "00-Index/SYNC_GITHUB.md",
+    "Insight/Insight_Template.md",
     "Roadmap/Week01.md",
     "Resources/Coursera_Tracker.md",
-    "00-Index/Final_Roadmap_AI.md",
-    "Roadmap.md",
     "Final_Roadmap.md",
     "Dashboard.md",
     "Dashboard_ori.md",
@@ -227,9 +230,6 @@
     "Roadmap/Week13.md",
     "Roadmap/Week11.md",
     "Roadmap/Week09.md",
-    "Roadmap/Week07.md",
-    "Roadmap/Week05.md",
-    "Roadmap/Week04.md",
     "00-Index.zip",
     "Cipta_AI_Vault_Final_with_Courses.zip",
     "90-Proyek Aktif.zip",
