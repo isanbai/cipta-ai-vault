@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final_Roadmap.md",
+                "file": "00-Index/Final_Roadmap_AI.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap"
+              "title": "Final_Roadmap_AI"
             }
           }
         ],
@@ -198,11 +198,13 @@
   },
   "active": "aee2c11bc22a1688",
   "lastOpenFiles": [
+    "Final_Roadmap.md",
+    "00-Index/Final_Roadmap_AI.md",
     "Dashboard.md",
+    "Roadmap/Week01.md",
     "Insight/ins_01.md",
     "Insight/Insight_Template.md",
     "Dashboard_ori.md",
-    "Roadmap/Week01.md",
     "Roadmap/Week 01.md",
     "Roadmap/Week02.md",
     "conflict-files-obsidian-git.md",
@@ -212,8 +214,6 @@
     "Roadmap/Week10.md",
     "Roadmap/Week08.md",
     "Roadmap/Week06.md",
-    "00-Index/Final_Roadmap_AI.md",
-    "Final_Roadmap.md",
     "Roadmap/Week.md",
     "scripts/generate_dashboard.sh",
     "scripts/New Text Document.txt",
