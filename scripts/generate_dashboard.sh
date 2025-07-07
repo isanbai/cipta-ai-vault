@@ -42,7 +42,7 @@ for f in "$ROADMAP_DIR"/Week*.md; do
             break
         fi
 
-        if [[ $IN_COURSE_SECTION == true && "$line" =~ ^- \[[ xX]\] ]]; then
+        if [[ "$IN_COURSE_SECTION" == true && "$line" =~ ^- \[[\ xX]\] ]]; then
             # Ambil status checklist
             STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
             
