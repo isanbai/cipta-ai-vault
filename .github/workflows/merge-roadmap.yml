@@ -22,7 +22,7 @@ jobs:
           echo "" >> Final_Roadmap.md
 
           if [ -d "Roadmap" ]; then
-            find Roadmap -type f -name "Week *.md" | sort | while read -r file; do
+            find Roadmap -type f -name "Week*.md" | sort | while read -r file; do
               filename=$(basename "$file" .md)
               echo "## 🗂️ $filename" >> Final_Roadmap.md
               echo "" >> Final_Roadmap.md
