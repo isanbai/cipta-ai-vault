@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0ce8f79c0e8ce22e",
+        "id": "1023008d974a25de",
         "type": "tabs",
         "children": [
           {
-            "id": "7c77d99d672df4d6",
+            "id": "432c389e6c223e25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week02.md",
+                "file": "Roadmap/Week01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week02"
-            }
-          },
-          {
-            "id": "d35f8c527db0121d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dashboard.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Week01"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -211,10 +196,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d35f8c527db0121d",
+  "active": "432c389e6c223e25",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Roadmap/Week 01.md",
+    "Dashboard.md",
     "Roadmap/Week02.md",
+    "conflict-files-obsidian-git.md",
     "Roadmap/Week03.md",
     "Roadmap/Week01.md",
     "Roadmap/Week12.md",
@@ -225,7 +212,6 @@
     "00-Index/Final_Roadmap_AI.md",
     "Final_Roadmap.md",
     "Insight/ins_01.md",
-    "Dashboard.md",
     "Roadmap/Week.md",
     "Dashboard_ori.md",
     "scripts/generate_dashboard.sh",
@@ -245,7 +231,6 @@
     "notes.md",
     "00-Index.zip",
     "Roadmap/Week15.md",
-    "Resources/Coursera_Tracker.md",
     "Cipta_AI_Vault_Final_with_Courses.zip",
     "90-Proyek Aktif.zip",
     "Untitled.canvas",

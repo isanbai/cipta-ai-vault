@@ -14,10 +14,9 @@ echo "|------|-------------|---------|" >> "$DASHBOARD_FILE"
 
 for file in Roadmap/Week*.md; do
   WEEK=$(basename "$file" .md)
-  LINK=$(echo "$file" | sed 's/ /%20/g')
   TOTAL=$(grep -cE '^\s*[-*] \[.\]' "$file")
   DONE=$(grep -cE '^\s*[-*] \[x\]' "$file")
-  echo "| [$WEEK]($LINK) | $TOTAL | $DONE |" >> "$DASHBOARD_FILE"
+  echo "| [$WEEK]($file) | $TOTAL | $DONE |" >> "$DASHBOARD_FILE"
 done
 
 
