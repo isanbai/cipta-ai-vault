@@ -1,36 +1,32 @@
-name: Merge Weekly Roadmap
+name: Merge Roadmap Weekly Files
 
 on:
   push:
-    paths:
-      - 'Roadmap/**.md'
-      - '.github/workflows/merge-roadmap.yml'
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
-  merge:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Merge Weekly Files into Final_Roadmap.md
         run: |
           echo "# 🧭 Final Roadmap – Cipta AI Vault" > Final_Roadmap.md
           echo "" >> Final_Roadmap.md
-          
-          for f in $(ls Roadmap/Week* | sort); do
-            echo "## 🚀 $(basename "$f" .md)" >> Final_Roadmap.md
-            echo "" >> Final_Roadmap.md
-            cat "$f" >> Final_Roadmap.md
-            echo -e "\n---\n" >> Final_Roadmap.md
-          done
 
-      - name: Commit & Push
-        run: |
-          git config user.name "vault-bot"
-          git config user.email "vault-bot@example.com"
-          git add Final_Roadmap.md
-          git commit -m "🔁 Update Final_Roadmap.md"
-          git push
-        continue-on-error: true  # supaya tidak error kalau tidak ada perubahan
+          if [ -d "Roadmap" ]; then
+            find Roadmap -type f -name "Week *.md" | sort | while read -r file; do
+              filename=$(basename "$file" .md)
+              echo "## 🗂️ $filename" >> Final_Roadmap.md
+              echo "" >> Final_Roadmap.md
+              cat "$file" >> Final_Roadmap.md
+              echo -e "\n---\n" >> Final_Roadmap.md
+            done
+          else
+            echo "_No roadmap files found._" >> Final_Roadmap.md
+          fi
