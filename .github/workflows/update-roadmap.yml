@@ -1,0 +1,65 @@
+name: Merge Roadmap Weekly Files
+
+permissions:
+  contents: write
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Merge Weekly Files into Roadmap.md
+        run: |
+          echo "# 🧭 Roadmap – Cipta AI Vault" > Roadmap.md
+          echo "# 🔰 LEVEL 1 – FUNDAMENTAL" > Roadmap.md
+          echo "## 🟩 Dasar AI & ML" > Roadmap.md
+          echo "# 🔰 LEVEL 2 – APPLIED AI" > Roadmap.md
+          echo "## 🟨 Deep Learning & Vision" > Roadmap.md
+          echo "# 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION" > Roadmap.md
+          echo "## 🟥 LLM & LangChain" > Roadmap.md
+          echo "# 🔰 LEVEL 4 – DEPLOYMENT & UI" > Roadmap.md
+          echo "## 🟦 Deployment & UI" > Roadmap.md
+          echo "" > Roadmap.md
+          echo "### 🎯 OUTCOME AKHIR" > Roadmap.md
+          echo "| Proyek | Output Akhir |" > Roadmap.md
+          echo "|---|---|" > Roadmap.md
+          echo "| Ammar-AI | Video anak 3x3 + suara AI + upload otomatis |" > Roadmap.md
+          echo "| Dakwah-AI | Chatbot Islami + voice TTS + ceramah bergambar |" > Roadmap.md
+          echo "| HireJob | Parsing CV, pencocokan, chatbot HR, AI Interview |" > Roadmap.md
+          echo "| BarangLagi | Search produk + UI + chatbot rekomendasi belanja |" > Roadmap.md
+          echo "" >> Roadmap.md
+
+          if [ -d "Roadmap" ]; then
+            find Roadmap -type f -name "Week*.md" | sort | while read -r file; do
+              filename=$(basename "$file" .md)
+              echo "## 🗂️ $filename" >> Roadmap.md
+              echo "" >> Roadmap.md
+              cat "$file" >> Roadmap.md
+              echo -e "\n---\n" >> Roadmap.md
+            done
+          else
+            echo "_No roadmap files found._" >> Roadmap.md
+          fi
+
+      - name: Commit and Push if Changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@users.noreply.github.com'
+          git add Roadmap.md
+      
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Roadmap.md from weekly roadmap"
+            
+            git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+            git push
+          fi
