@@ -19,14 +19,14 @@ jobs:
       - name: Merge Weekly Files into Roadmap.md
         run: |
           echo "# 🧭 Roadmap – Cipta AI Vault" > Roadmap.md
-          echo "# 🔰 LEVEL 1 – FUNDAMENTAL" >> Roadmap.md
-          echo "## 🟩 Dasar AI & ML" >> Roadmap.md
-          echo "# 🔰 LEVEL 2 – APPLIED AI" >> Roadmap.md
-          echo "## 🟨 Deep Learning & Vision" >> Roadmap.md
-          echo "# 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION" >> Roadmap.md
-          echo "## 🟥 LLM & LangChain" >> Roadmap.md
-          echo "# 🔰 LEVEL 4 – DEPLOYMENT & UI" >> Roadmap.md
-          echo "## 🟦 Deployment & UI" >> Roadmap.md
+          echo "## 🔰 LEVEL 1 – FUNDAMENTAL" >> Roadmap.md
+          echo "  ### 🟩 Dasar AI & ML" >> Roadmap.md
+          echo "## 🔰 LEVEL 2 – APPLIED AI" >> Roadmap.md
+          echo "  ### 🟨 Deep Learning & Vision" >> Roadmap.md
+          echo "## 🔰 LEVEL 3 – LLM & SYSTEM INTEGRATION" >> Roadmap.md
+          echo "  ### 🟥 LLM & LangChain" >> Roadmap.md
+          echo "## 🔰 LEVEL 4 – DEPLOYMENT & UI" >> Roadmap.md
+          echo "  ### 🟦 Deployment & UI" >> Roadmap.md
           echo "" >> Roadmap.md
           echo "### 🎯 OUTCOME AKHIR" >> Roadmap.md
           echo "| Proyek | Output Akhir |" >> Roadmap.md
