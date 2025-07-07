@@ -16,7 +16,7 @@ for file in Roadmap/Week*.md; do
   WEEK=$(basename "$file" .md)
   TOTAL=$(grep -cE '^\s*[-*] \[.\]' "$file")
   DONE=$(grep -cE '^\s*[-*] \[x\]' "$file")
-  echo "| [$WEEK](/$file) | $TOTAL | $DONE |" >> "$DASHBOARD_FILE"
+  echo " [$WEEK](/$file)  $TOTAL  $DONE " >> "$DASHBOARD_FILE"
 done
 
 echo "" >> "$DASHBOARD_FILE"
