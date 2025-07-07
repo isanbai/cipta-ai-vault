@@ -30,3 +30,15 @@ jobs:
           else
             echo "_No roadmap files found._" >> Final_Roadmap.md
           fi
+
+      - name: Commit and Push if Changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@users.noreply.github.com'
+          git add Final_Roadmap.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Final_Roadmap.md from weekly roadmap"
+            git push
+          fi
