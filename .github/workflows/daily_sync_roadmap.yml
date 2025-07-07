@@ -1,0 +1,27 @@
+# merge-roadmap.yml
+name: Merge Roadmap Files
+
+on:
+  push:
+    paths:
+      - "Roadmap/**.md"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge files
+        run: |
+          echo "## Full Roadmap" > Final_Roadmap.md
+          for f in Roadmap/Week*.md; do
+            echo -e "\n\n" >> Final_Roadmap.md
+            cat "$f" >> Final_Roadmap.md
+          done
+      - name: Commit merged file
+        run: |
+          git config user.name "Auto Bot"
+          git config user.email "bot@github.com"
+          git add Final_Roadmap.md
+          git commit -m "Update merged Roadmap"
+          git push
