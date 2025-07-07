@@ -50,7 +50,7 @@ for f in Roadmap/Week*.md; do
         break
       fi
 
-      if [[ $line =~ \[[xX ]\]\ \[.*\]\(.*\) ]]; then
+      if echo "$line" | grep -qE "^\[[xX ]\]\ \[.*\]\(.*\)"; then
         STATUS=$(echo "$line" | grep -o "\[[xX ]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
         COURSE=$(echo "$line" | sed -E 's/^\[[xX ]\] //')
         echo "| $WEEK | $COURSE | $STATUS |" >> "$DASHBOARD_FILE"
