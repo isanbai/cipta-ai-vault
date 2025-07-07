@@ -2,9 +2,10 @@ name: Update Dashboard
 
 on:
   push:
-    paths:
-      - 'Roadmap/**.md'
-
+    branches:
+      - master
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
