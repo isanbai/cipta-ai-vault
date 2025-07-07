@@ -4,7 +4,7 @@
 
 | Week | Total Tasks | Selesai |
 |------|-------------|---------|
-| [Week_01](/Roadmap/Week 01.md) | 9 | 2 |
+| [Week 01](/Roadmap/Week 01.md) | 9 | 2 |
 | [Week 02](/Roadmap/Week 02.md) | 5 | 0 |
 | [Week 03](/Roadmap/Week 03.md) | 5 | 0 |
 | [Week 04](/Roadmap/Week 04.md) | 7 | 0 |
@@ -22,4 +22,4 @@
 
 ## 📚 Course Progress
 
-[Insight](/Insight/ins_01.md)
+
