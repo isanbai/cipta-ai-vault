@@ -1,27 +1,35 @@
-# merge-roadmap.yml
-name: Merge Roadmap Files
+name: Merge Weekly Roadmap
 
 on:
   push:
     paths:
-      - "Roadmap/**.md"
+      - 'Roadmap/**.md'
+      - '.github/workflows/merge-roadmap.yml'
 
 jobs:
-  build:
+  merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Merge files
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Merge Weekly Files into Final_Roadmap.md
         run: |
-          echo "## Full Roadmap" > Final_Roadmap.md
-          for f in Roadmap/Week*.md; do
-            echo -e "\n\n" >> Final_Roadmap.md
+          echo "# 🧭 Final Roadmap – Cipta AI Vault" > Final_Roadmap.md
+          echo "" >> Final_Roadmap.md
+          
+          for f in $(ls Roadmap/Week* | sort); do
+            echo "## 🚀 $(basename "$f" .md)" >> Final_Roadmap.md
+            echo "" >> Final_Roadmap.md
             cat "$f" >> Final_Roadmap.md
+            echo -e "\n---\n" >> Final_Roadmap.md
           done
-      - name: Commit merged file
+
+      - name: Commit & Push
         run: |
-          git config user.name "Auto Bot"
-          git config user.email "bot@github.com"
+          git config user.name "vault-bot"
+          git config user.email "vault-bot@example.com"
           git add Final_Roadmap.md
-          git commit -m "Update merged Roadmap"
+          git commit -m "🔁 Update Final_Roadmap.md"
           git push
+        continue-on-error: true  # supaya tidak error kalau tidak ada perubahan
