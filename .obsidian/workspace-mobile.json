@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Roadmap.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap_AI"
+              "title": "Roadmap"
             }
           }
         ]
@@ -164,12 +164,16 @@
   },
   "active": "e814927026ac028d",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "00-Index/Final_Roadmap_AI.md",
+    "Roadmap/Week01.md",
+    "Insight/ins_01.md",
+    "Roadmap.md",
     "Roadmap/Week09.md",
     "Roadmap/Week10.md",
     "Roadmap/Week07.md",
     "Roadmap/Week05.md",
     "Roadmap/Week03.md",
-    "Roadmap/Week01.md",
     "Roadmap/Week15.md",
     "Roadmap/Week13.md",
     "Roadmap/Week11.md",
@@ -177,7 +181,6 @@
     "Roadmap/Week06.md",
     "Roadmap/Week04.md",
     "Roadmap/Week02.md",
-    "Roadmap.md",
     "Roadmap/Week14.md",
     "scripts/generate_dashboard.sh",
     "Roadmap/Week12.md",
@@ -190,9 +193,6 @@
     "/Roadmap/Week12.md",
     "/Roadmap/Week11.md",
     "/Roadmap/Week10.md",
-    "/Roadmap/Week09.md",
-    "/Roadmap/Week08.md",
-    "/Roadmap/Week07.md",
     "/00-Index",
     "scripts",
     "/scripts",
