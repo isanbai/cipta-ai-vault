@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Insight/ins_01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap_AI"
+              "title": "ins_01"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -198,8 +199,8 @@
   },
   "active": "aee2c11bc22a1688",
   "lastOpenFiles": [
-    "Templates/Weekly_Template.md",
     "00-Index/Final_Roadmap_AI.md",
+    "Templates/Weekly_Template.md",
     "00-Index/Roadmap HR Hybrid AI System.md",
     "00-Index/Roadmap_AI_12Bln.md",
     "Insight/ins_01.md",
