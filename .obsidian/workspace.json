@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week01.md",
+                "file": "Insight/ins_01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week01"
+              "title": "ins_01"
             }
           }
         ],
@@ -198,6 +198,7 @@
   },
   "active": "aee2c11bc22a1688",
   "lastOpenFiles": [
+    "Roadmap/Week01.md",
     "Insight/ins_01.md",
     "00-Index/Final_Roadmap_AI.md",
     "Templates/Weekly_Template.md",
@@ -206,7 +207,6 @@
     "Roadmap.md",
     "00-Index/SYNC_GITHUB.md",
     "Insight/Insight_Template.md",
-    "Roadmap/Week01.md",
     "Resources/Coursera_Tracker.md",
     "Final_Roadmap.md",
     "Dashboard.md",
