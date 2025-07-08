@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap.md",
+                "file": "Dashboard.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "Dashboard"
             }
           }
         ]
@@ -164,11 +164,19 @@
   },
   "active": "e814927026ac028d",
   "lastOpenFiles": [
-    "Dashboard.md",
+    "00-Index/Roadmap_AI_12Bln.md",
     "00-Index/Final_Roadmap_AI.md",
+    "Roadmap.md",
+    "00-Index/Roadmap HR Hybrid AI System.md",
+    "/Insight/ins_01.md",
+    "/Insight",
+    "/00-Index/Roadmap_AI_12Bln.md",
+    "/00-Index/Roadmap HR Hybrid AI System.md",
+    "/00-Index/Final_Roadmap_AI.md",
+    "/00-Index",
+    "Dashboard.md",
     "Roadmap/Week01.md",
     "Insight/ins_01.md",
-    "Roadmap.md",
     "Roadmap/Week09.md",
     "Roadmap/Week10.md",
     "Roadmap/Week07.md",
@@ -187,18 +195,10 @@
     "/update_weeks_with_md_content.py",
     "/scripts/generate_dashboard.sh",
     "/Roadmap.md",
-    "/Roadmap/Week15.md",
-    "/Roadmap/Week14.md",
-    "/Roadmap/Week13.md",
-    "/Roadmap/Week12.md",
-    "/Roadmap/Week11.md",
-    "/Roadmap/Week10.md",
-    "/00-Index",
     "scripts",
     "/scripts",
     "/Roadmap",
     "/Resources",
-    "/Insight",
     "sync_md_overwrite_notion.py"
   ]
 }
