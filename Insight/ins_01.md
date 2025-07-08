@@ -65,11 +65,40 @@ filtered_data = data[data["Year"]==2015]
 print(filtered_data["Price"].median())
 
 import matplotlib.pyplot as plt
-\plt.title('Car Price vs. Kilometers Driven', fontsize=16)
+plt.title('Car Price vs. Kilometers Driven', fontsize=16)
 plt.xlabel('Kilometers Driven')
 plt.ylabel('Price (in USD)')
 # Add the grid
 plt.grid(True)
 # Display the plot
 plt.show()
+```
+```
+!pip install bs4
+from bs4 import BeautifulSoup
+import requests # let's you download webpages into python
+from helper_functions import * 
+from IPython.display import HTML, display
+
+# The url from one of the Batch's newsletter
+url = 'https://www.deeplearning.ai/the-batch/the-world-needs-more-intelligence/'
+
+# Getting the content from the webpage's contents
+response = requests.get(url)
+print(response)
+HTML(f'<iframe src={url} width="60%" height="400"></iframe>')
+
+# Using beautifulsoup to extract the text
+soup = BeautifulSoup(response.text, 'html.parser')
+all_text = soup.find_all('p')
+combined_text = ""
+for text in all_text:
+    combined_text = combined_text + "\n" + text.get_text()
+
+print(combined_text)
+prompt = f"""
+Extract the key bullet points from the following text.
+Text:{combined_text}
+"""
+print_llm_response(prompt)
 ```
