@@ -27,6 +27,7 @@ jobs:
             exit 1
           fi
           ls -l Dashboard.md
+          cat Dashboard.md
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
           
