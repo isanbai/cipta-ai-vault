@@ -39,7 +39,7 @@ jobs:
 
               # Hitung checklist
               TOTAL=$(grep -cE "^- \[[ xX]\]" "$file" || echo 0)
-              DONE=$(grep -cE "^- \[[ xX]\]" "$file" || echo 0)
+              DONE=$(grep -cE "^- \[[xX]\]" "$file" || echo )
 
               echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
