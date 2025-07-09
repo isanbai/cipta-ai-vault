@@ -66,7 +66,7 @@ jobs:
                           # Ambil course markdown link
                           COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
                           
-                          echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
+                          echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
                       fi
                   fi
               done < "$f"
