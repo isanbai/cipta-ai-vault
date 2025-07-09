@@ -26,6 +26,7 @@ jobs:
             echo "Dashboard.md not found!"
             exit 1
           fi
+          ls -l Dashboard.md
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
           
