@@ -44,7 +44,7 @@ jobs:
           echo "| Week | Course | Status |" >> Dashboard.md
           echo "|------|--------|--------|" >> Dashboard.md
 
-          for f in $ROADMAP_DIR/Week*.md; do
+          for f in Roadmap/Week*.md; do
               WEEK=$(basename "$f" .md)
               IN_COURSE_SECTION=false
 
