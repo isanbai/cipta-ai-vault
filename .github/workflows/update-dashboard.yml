@@ -29,11 +29,11 @@ jobs:
           echo "| Week | Total Tasks | Selesai |" >> Dashboard.md
           echo "|------|-------------|---------|" >> Dashboard.md
 
-          for file in $ROADMAP_DIR/Week*.md; do
+          for file in Roadmap/Week*.md; do
             WEEK=$(basename "$file" .md)
             TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
             DONE=$(grep -cE "^- \[[xX]\]" "$file")
-            echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
+            echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
 
           echo "" >> Dashboard.md
@@ -42,7 +42,7 @@ jobs:
           echo "| Week | Course | Status |" >> Dashboard.md
           echo "|------|--------|--------|" >> Dashboard.md
 
-          for f in $ROADMAP_DIR/Week*.md; do
+          for f in Roadmap/Week*.md; do
             WEEK=$(basename "$f" .md)
             IN_COURSE_SECTION=false
 
@@ -60,7 +60,7 @@ jobs:
                 if echo "$line" | grep -qE "^- \[[ xX]\]"; then
                   STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
                   COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
-                  echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
+                  echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
                 fi
               fi
             done < "$f"
