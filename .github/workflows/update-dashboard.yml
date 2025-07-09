@@ -21,6 +21,7 @@ jobs:
         run: |
           DASHBOARD_FILE="Dashboard.md"
           ROADMAP_DIR="Roadmap"
+          echo "DASHBOARD_FILE: $DASHBOARD_FILE"
           
           echo "# 🕰️ Dashboard Cipta AI Vault" > "$DASHBOARD_FILE"
           echo "" >> "$DASHBOARD_FILE"
