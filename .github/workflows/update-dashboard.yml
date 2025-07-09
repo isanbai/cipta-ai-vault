@@ -22,7 +22,10 @@ jobs:
           DASHBOARD_FILE="Dashboard.md"
           ROADMAP_DIR="Roadmap"
           echo "DASHBOARD_FILE: $DASHBOARD_FILE"
-          
+          if [ ! -f Dashboard.md ]; then
+            echo "Dashboard.md not found!"
+            exit 1
+          fi
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
           
