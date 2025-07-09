@@ -19,15 +19,6 @@ jobs:
 
       - name: Update Dashboard
         run: |
-          DASHBOARD_FILE="Dashboard.md"
-          ROADMAP_DIR="Roadmap"
-          echo "DASHBOARD_FILE: $DASHBOARD_FILE"
-          if [ ! -f Dashboard.md ]; then
-            echo "Dashboard.md not found!"
-            exit 1
-          fi
-          ls -l Dashboard.md
-          cat Dashboard.md
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
           
@@ -37,7 +28,7 @@ jobs:
           echo "| Week | Total Tasks | Selesai |" >> Dashboard.md
           echo "|------|-------------|---------|" >> Dashboard.md
           
-          for file in "$ROADMAP_DIR"/Week*.md; do
+          for file in Roadmap/Week*.md; do
               WEEK=$(basename "$file" .md)
               TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
               DONE=$(grep -cE "^- \[[xX]\]" "$file")
@@ -52,7 +43,7 @@ jobs:
           echo "| Week | Course | Status |" >> Dashboard.md
           echo "|------|--------|--------|" >> Dashboard.md
           
-          for f in "$ROADMAP_DIR"/Week*.md; do
+          for f in Roadmap/Week*.md; do
               WEEK=$(basename "$f" .md)
               IN_COURSE_SECTION=false
           
