@@ -32,7 +32,7 @@ jobs:
               WEEK=$(basename "$file" .md)
               TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
               DONE=$(grep -cE "^- \[[xX]\]" "$file")
-              echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
+              echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
           
           echo "" >> Dashboard.md
