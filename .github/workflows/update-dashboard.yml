@@ -17,56 +17,60 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update Dashboard
+      - name: Generate Dashboard.md
         run: |
+          ROADMAP_DIR="Roadmap"
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
 
-          ROADMAP_DIR="Roadmap"
-
+          # Section: Progress Checklist Mingguan
           echo "## ✅ Progress Checklist Mingguan" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "| Week | Total Tasks | Selesai |" >> Dashboard.md
           echo "|------|-------------|---------|" >> Dashboard.md
 
-          for file in Roadmap/Week*.md; do
-            WEEK=$(basename "$file" .md)
-            TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
-            DONE=$(grep -cE "^- \[[xX]\]" "$file")
-            echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
+          for file in $ROADMAP_DIR/Week*.md; do
+              WEEK=$(basename "$file" .md)
+              TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
+              DONE=$(grep -cE "^- \[[xX]\]" "$file")
+              echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
 
           echo "" >> Dashboard.md
+
+          # Section: Course Progress
           echo "## 📚 Course Progress" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "| Week | Course | Status |" >> Dashboard.md
           echo "|------|--------|--------|" >> Dashboard.md
 
-          for f in Roadmap/Week*.md; do
-            WEEK=$(basename "$f" .md)
-            IN_COURSE_SECTION=false
+          for f in $ROADMAP_DIR/Week*.md; do
+              WEEK=$(basename "$f" .md)
+              IN_COURSE_SECTION=false
 
-            while IFS= read -r line; do
-              if [[ "$line" == "#### 📚 Course Progress:"* ]]; then
-                IN_COURSE_SECTION=true
-                continue
-              fi
+              while IFS= read -r line; do
+                  if [[ "$line" == "## 📚 Course Progress"* ]]; then
+                      IN_COURSE_SECTION=true
+                      continue
+                  fi
 
-              if [[ "$IN_COURSE_SECTION" == true && "$line" == "#"* ]]; then
-                break
-              fi
+                  if [[ $IN_COURSE_SECTION == true && "$line" == "## "* ]]; then
+                      break
+                  fi
 
-              if [[ "$IN_COURSE_SECTION" == true ]]; then
-                if echo "$line" | grep -qE "^- \[[ xX]\]"; then
-                  STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
-                  COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
-                  echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
-                fi
-              fi
-            done < "$f"
+                  if [[ $IN_COURSE_SECTION == true ]]; then
+                      if echo "$line" | grep -qE "^- \[[ xX]\]"; then
+                          STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
+                          COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
+                          echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
+                      fi
+                  fi
+              done < "$f"
           done
 
           echo "" >> Dashboard.md
+
+          # Section: Proyek Aktif
           echo "## 🛠️ Proyek Aktif" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "- [AmmarAI](Proyek/AmmarAI.md)" >> Dashboard.md
@@ -83,6 +87,5 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update Dashboard"
-            git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push
           fi
