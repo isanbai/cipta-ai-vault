@@ -4,21 +4,36 @@
 
 | Week | Total Tasks | Selesai |
 |------|-------------|---------|
-| [Week01](Roadmap/Week01.md) | 9 | 2 |
-| [Week02](Roadmap/Week02.md) | 5 | 0 |
-| [Week03](Roadmap/Week03.md) | 5 | 0 |
-| [Week04](Roadmap/Week04.md) | 7 | 0 |
-| [Week05](Roadmap/Week05.md) | 4 | 0 |
-| [Week06](Roadmap/Week06.md) | 4 | 0 |
-| [Week07](Roadmap/Week07.md) | 5 | 0 |
-| [Week08](Roadmap/Week08.md) | 5 | 0 |
-| [Week09](Roadmap/Week09.md) | 5 | 0 |
-| [Week10](Roadmap/Week10.md) | 8 | 0 |
-| [Week11](Roadmap/Week11.md) | 6 | 0 |
-| [Week12](Roadmap/Week12.md) | 4 | 0 |
-| [Week13](Roadmap/Week13.md) | 2 | 0 |
-| [Week14](Roadmap/Week14.md) | 0 | 0 |
-| [Week15](Roadmap/Week15.md) | 2 | 0 |
+| [Week01](Roadmap/Week01.md) | 9 | 3 |
+| [Week02](Roadmap/Week02.md) | 5 | 0
+0 |
+| [Week03](Roadmap/Week03.md) | 5 | 0
+0 |
+| [Week04](Roadmap/Week04.md) | 7 | 0
+0 |
+| [Week05](Roadmap/Week05.md) | 4 | 0
+0 |
+| [Week06](Roadmap/Week06.md) | 4 | 0
+0 |
+| [Week07](Roadmap/Week07.md) | 5 | 0
+0 |
+| [Week08](Roadmap/Week08.md) | 5 | 0
+0 |
+| [Week09](Roadmap/Week09.md) | 5 | 0
+0 |
+| [Week10](Roadmap/Week10.md) | 8 | 0
+0 |
+| [Week11](Roadmap/Week11.md) | 6 | 0
+0 |
+| [Week12](Roadmap/Week12.md) | 4 | 0
+0 |
+| [Week13](Roadmap/Week13.md) | 2 | 0
+0 |
+| [Week14](Roadmap/Week14.md) | 0
+0 | 0
+0 |
+| [Week15](Roadmap/Week15.md) | 2 | 0
+0 |
 
 ## 📚 Course Progress
 
@@ -26,7 +41,7 @@
 |------|--------|--------|
 | [Week01](Roadmap/Week01.md) | [AI for Everyone – Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone) ✅ 2025-06-23 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Generative AI for Everyone (Coursera)](https://www.coursera.org/learn/generative-ai-for-everyone) ✅ 2025-06-30 | ✅ |
-| [Week01](Roadmap/Week01.md) | [AI Python for Beginners (Coursera)](https://www.coursera.org/learn/ai-python-for-beginners) | ❌ |
+| [Week01](Roadmap/Week01.md) | [AI Python for Beginners (Coursera)](https://www.coursera.org/learn/ai-python-for-beginners) ✅ 2025-07-08 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) | ❌ |
 | [Week01](Roadmap/Week01.md) | [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/) | ❌ |
 | [Week01](Roadmap/Week01.md) | 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml) | ❌ |
