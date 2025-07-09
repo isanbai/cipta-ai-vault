@@ -4,44 +4,94 @@ permissions:
   contents: write
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Generate Dashboard
         run: |
-          set -x
+          set -x  # Enable debug mode
+
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
+
           echo "## ✅ Progress Checklist Mingguan" >> Dashboard.md
           echo "" >> Dashboard.md
-          echo "| Week | Total | Done |" >> Dashboard.md
-          echo "|------|-------|------|" >> Dashboard.md
+          echo "| Week | Total Tasks | Selesai |" >> Dashboard.md
+          echo "|------|-------------|---------|" >> Dashboard.md
 
           for file in Roadmap/Week*.md; do
-            WEEK=$(basename "$file" .md)
-            TOTAL=$(grep -cE '^- \[[ xX]\]' "$file")
-            DONE=$(grep -cE '^- \[[xX]\]' "$file")
-            echo "| WEEK: ${WEEK} | TOTAL: ${TOTAL} | DONE: ${DONE} |" >> Dashboard.md
+              if [[ ! -f "$file" ]]; then
+                  echo "File $file tidak ditemukan!"
+                  continue
+              fi
+
+              WEEK=$(basename "$file" .md)
+
+              # Hitung checklist
+              TOTAL=$(grep -cE "^- \[[ xX]\]" "$file" || echo 0)
+              DONE=$(grep -cE "^- \[[xX]\]" "$file" || echo 0)
+
+              echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
 
-      - name: Commit changes
+          echo "" >> Dashboard.md
+          echo "## 📚 Course Progress" >> Dashboard.md
+          echo "" >> Dashboard.md
+          echo "| Week | Course | Status |" >> Dashboard.md
+          echo "|------|--------|--------|" >> Dashboard.md
+
+          for f in Roadmap/Week*.md; do
+              WEEK=$(basename "$f" .md)
+              IN_COURSE_SECTION=false
+
+              while IFS= read -r line; do
+                  if [[ "$line" == "#### 📚 Course Progress:"* ]]; then
+                      IN_COURSE_SECTION=true
+                      continue
+                  fi
+
+                  # Berhenti jika heading baru
+                  if [[ "$IN_COURSE_SECTION" == true && "$line" == \#* ]]; then
+                      break
+                  fi
+
+                  if [[ "$IN_COURSE_SECTION" == true ]]; then
+                      if echo "$line" | grep -qE "^- \[[ xX]\]"; then
+                          STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
+                          COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
+                          echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
+                      fi
+                  fi
+              done < "$f"
+          done
+
+          echo "" >> Dashboard.md
+          echo "## 🛠️ Proyek Aktif" >> Dashboard.md
+          echo "" >> Dashboard.md
+          echo "- [AmmarAI](Proyek/AmmarAI.md)" >> Dashboard.md
+          echo "- [HireJob](Proyek/HireJob.md)" >> Dashboard.md
+          echo "- [DakwahAI](Proyek/DakwahAI.md)" >> Dashboard.md
+
+      - name: Commit and Push if Changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@users.noreply.github.com'
           git add Dashboard.md
+
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit."
           else
             git commit -m "Update Dashboard"
+            git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push
           fi
