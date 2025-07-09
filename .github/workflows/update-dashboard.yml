@@ -2,7 +2,7 @@ name: Update Dashboard
 
 permissions:
   contents: write
-  
+
 on:
   push:
     branches:
@@ -21,79 +21,68 @@ jobs:
         run: |
           echo "# 🕰️ Dashboard Cipta AI Vault" > Dashboard.md
           echo "" >> Dashboard.md
-          
-          # Section: Progress Checklist Mingguan
+
+          ROADMAP_DIR="Roadmap"
+
           echo "## ✅ Progress Checklist Mingguan" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "| Week | Total Tasks | Selesai |" >> Dashboard.md
           echo "|------|-------------|---------|" >> Dashboard.md
-          
-          for file in Roadmap/Week*.md; do
-              WEEK=$(basename "$file" .md)
-              TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
-              DONE=$(grep -cE "^- \[[xX]\]" "$file")
-              echo "| [$WEEK](Roadmap/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
+
+          for file in $ROADMAP_DIR/Week*.md; do
+            WEEK=$(basename "$file" .md)
+            TOTAL=$(grep -cE "^- \[[ xX]\]" "$file")
+            DONE=$(grep -cE "^- \[[xX]\]" "$file")
+            echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $TOTAL | $DONE |" >> Dashboard.md
           done
-          
+
           echo "" >> Dashboard.md
-          
-          # Section: Course Progress
           echo "## 📚 Course Progress" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "| Week | Course | Status |" >> Dashboard.md
           echo "|------|--------|--------|" >> Dashboard.md
-          
-          for f in Roadmap/Week*.md; do
-              WEEK=$(basename "$f" .md)
-              IN_COURSE_SECTION=false
-          
-              while IFS= read -r line; do
-                  if [[ "$line" == "#### 📚 Course Progress:"* ]]; then
-                      IN_COURSE_SECTION=true
-                      continue
-                  fi
-          
-                  # Stop if next heading
-                  if [[ $IN_COURSE_SECTION == true && "$line" == "#"* ]]; then
-                      break
-                  fi
-          
-                  if [[ "$IN_COURSE_SECTION" == true ]]; then
-                      if echo "$line" | grep -qE "^- \[[ xX]\]"; then
-                          # Ambil status checklist
-                          STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
-                          
-                          # Ambil course markdown link
-                          COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
-                          
-                          echo "| [$WEEK](Roadmap/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
-                      fi
-                  fi
-              done < "$f"
+
+          for f in $ROADMAP_DIR/Week*.md; do
+            WEEK=$(basename "$f" .md)
+            IN_COURSE_SECTION=false
+
+            while IFS= read -r line; do
+              if [[ "$line" == "#### 📚 Course Progress:"* ]]; then
+                IN_COURSE_SECTION=true
+                continue
+              fi
+
+              if [[ "$IN_COURSE_SECTION" == true && "$line" == "#"* ]]; then
+                break
+              fi
+
+              if [[ "$IN_COURSE_SECTION" == true ]]; then
+                if echo "$line" | grep -qE "^- \[[ xX]\]"; then
+                  STATUS=$(echo "$line" | grep -o "\[[ xX]\]" | sed 's/\[x\]/✅/;s/\[X\]/✅/;s/\[ \]/❌/')
+                  COURSE=$(echo "$line" | sed -E 's/^- \[[xX ]\] (.*)/\1/')
+                  echo "| [$WEEK]($ROADMAP_DIR/$WEEK.md) | $COURSE | $STATUS |" >> Dashboard.md
+                fi
+              fi
+            done < "$f"
           done
-          
+
           echo "" >> Dashboard.md
-          
-          # Section: Proyek Aktif (opsional)
           echo "## 🛠️ Proyek Aktif" >> Dashboard.md
           echo "" >> Dashboard.md
           echo "- [AmmarAI](Proyek/AmmarAI.md)" >> Dashboard.md
           echo "- [HireJob](Proyek/HireJob.md)" >> Dashboard.md
           echo "- [DakwahAI](Proyek/DakwahAI.md)" >> Dashboard.md
 
-
       - name: Commit and Push if Changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
           git add Dashboard.md
-      
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update Dasboard"
-            
+            git commit -m "Update Dashboard"
             git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push
           fi
-
