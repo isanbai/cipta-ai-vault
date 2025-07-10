@@ -97,3 +97,16 @@ DL Flow:
 [Evaluasi model] 
   ↓
 [Prediksi]
+
+### 🧰 Tools Coding & Praktik:
+
+|Tool|Fungsi|Saran|
+|---|---|---|
+|**Python**|Bahasa utama AI|Pakai Python saja|
+|**Jupyter/Colab**|Tempat eksperimen|Gunakan **Google Colab**|
+|**Scikit-learn**|Untuk ML dasar|Sudah kamu pakai tadi|
+|**Pandas**|Kelola data (CSV, Excel, dll)|Akan kita pakai minggu depan|
+|**Matplotlib/Seaborn**|Grafik & visualisasi|Untuk analisis data|
+|**TensorFlow / Keras**|Untuk Deep Learning|Kita pakai di Week 3|
+|**PyTorch**|Alternatif DL (lebih teknikal)|Dipelajari saat lanjut ke level LLM|
+|**HuggingFace**|Model pretrained (NLP)|Masuk Week 5+|
