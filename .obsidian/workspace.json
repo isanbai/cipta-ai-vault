@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Technical Phase.md",
+                "file": "00-Index/Course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Technical Phase"
+              "title": "Course"
             }
           }
         ],
@@ -198,6 +198,9 @@
   },
   "active": "aee2c11bc22a1688",
   "lastOpenFiles": [
+    "Course/README.md",
+    "00-Index/Course.md",
+    "00-Index/Technical Phase.md",
     "Course/Week02_NeuralNet/prak2_keras_mnist.ipynb",
     "Course/Week02_NeuralNet/modul.md",
     "Course/Week03_CNN/prak3_facial_emotion.ipynb",
@@ -207,18 +210,15 @@
     "Course/Week02_NeuralNet",
     "Course/Week03_CNN",
     "Course/Week01_Fundamentals",
-    "Course/README.md",
     "Course",
     "AI-Roadmap-Personal/Week03_CNN/prak3_facial_emotion.ipynb",
     "AI-Roadmap-Personal/Week03_CNN/modul.md",
     "AI-Roadmap-Personal/Week03_CNN",
     "AI-Roadmap-Personal/Week02_NeuralNet/prak2_keras_mnist.ipynb",
     "AI-Roadmap-Personal/Week02_NeuralNet/modul.md",
-    "AI-Roadmap-Personal/Week02_NeuralNet",
     "AI-Roadmap-Personal/Week01_Fundamentals/modul.md",
     "AI-Roadmap-Personal/README.md",
     "00-Index/Certification.md",
-    "00-Index/Technical Phase.md",
     "Roadmap/Week01.md",
     "Dashboard.md",
     "Roadmap.md",
