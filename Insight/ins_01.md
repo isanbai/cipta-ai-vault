@@ -111,9 +111,13 @@ from dotenv import load_dotenv
 # Get the Weather API key from the .env file
 load_dotenv('.env', override=True)
 api_key = os.getenv('WEATHER_API_KEY')
-
+lat = -6.908856
+lon = 107.608710
 url = f"https://api.openweathermap.org/data/2.5/forecast?units=metric&cnt=1&lat={lat}&lon={lon}&appid={api_key}"
 response = requests.get(url, verify=False)
 data = response.json()
-print(data)
+feels_like = data['list'][0]['weather'][0]['description']
+city = data['city']['name']
+print(f"The temperature currently feels like {feels_like}°C in {city}.")
+
 ```
