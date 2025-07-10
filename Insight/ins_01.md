@@ -103,6 +103,7 @@ Text:{combined_text}
 print_llm_response(prompt)
 ```
 ```
+pip install python-dotenv
 import os
 import requests
 from aisetup import print_llm_response
