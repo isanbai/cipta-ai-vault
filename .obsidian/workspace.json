@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "edc155b8d822f263",
+        "id": "fd9db90e4f2ed34b",
         "type": "tabs",
         "children": [
           {
-            "id": "aee2c11bc22a1688",
+            "id": "f251fe4398d47a0f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course/Week01_Fundamentals/modul.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "modul"
+              "title": "New tab"
             }
           }
         ],
@@ -196,11 +192,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "aee2c11bc22a1688",
+  "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/modul.md",
     "Course/Week01_Fundamentals/prak1_linear_regression_VALID.ipynb",
     "Course/Week03_CNN/modul.md",
-    "Course/Week01_Fundamentals/modul.md",
     "Course/Week02_NeuralNet/modul.md",
     "00-Index/Course.md",
     "Course/Week12_FinalProject/modul.md",
@@ -217,7 +213,6 @@
     "Course/Week09_Qdrant",
     "Course/Week08_RAG/modul.md",
     "Course/Week08_RAG/prak8_langchain_llamaindex.ipynb",
-    "Course/Week08_RAG",
     "Course/Week07_LLM/modul.md",
     "Course/Week06_AudioTTS/modul.md",
     "Course/Week05_NLP/modul.md",
