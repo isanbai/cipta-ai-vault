@@ -102,3 +102,18 @@ Text:{combined_text}
 """
 print_llm_response(prompt)
 ```
+```
+import os
+import requests
+from aisetup import print_llm_response
+from dotenv import load_dotenv
+
+# Get the Weather API key from the .env file
+load_dotenv('.env', override=True)
+api_key = os.getenv('WEATHER_API_KEY')
+
+url = f"https://api.openweathermap.org/data/2.5/forecast?units=metric&cnt=1&lat={lat}&lon={lon}&appid={api_key}"
+response = requests.get(url, verify=False)
+data = response.json()
+print(data)
+```
