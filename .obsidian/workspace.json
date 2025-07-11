@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week01.md",
+                "file": "Course/Week01_Fundamentals/modul.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week01"
+              "title": "modul"
             }
           }
         ],
@@ -198,13 +198,15 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Roadmap/Week01.md",
+    "Insight/ins_01.md",
+    "Roadmap.md",
     "Dashboard.md",
+    "Roadmap/Week02.md",
+    "Course/Week01_Fundamentals/modul.md",
     "00-Index/Final_Roadmap_AI.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
-    "Roadmap.md",
-    "Course/Week01_Fundamentals/modul.md",
-    "Insight/ins_01.md",
     "Course/Week02_NeuralNet/modul.md",
     "Course/Week01_Fundamentals/prak1_linear_regression_VALID.ipynb",
     "Course/Week03_CNN/modul.md",
@@ -232,7 +234,6 @@
     "AI-Roadmap-Personal/Week01_Fundamentals/modul.md",
     "AI-Roadmap-Personal/README.md",
     "00-Index/Certification.md",
-    "Roadmap/Week01.md",
     "Untitled.canvas"
   ]
 }
