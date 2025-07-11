@@ -31,7 +31,6 @@
 - [x] [AI Python for Beginners (Coursera)](https://www.coursera.org/learn/ai-python-for-beginners) ✅ 2025-07-08
 - [ ] [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python)
 - [ ] [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
-- [ ] [FreeCodeCamp – Machine Learning 6 jam (Python)](https://www.youtube.com/watch?v=7eh4d6sabA0)
 - [ ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
 
 #### 🛠️ Project Tasks:
