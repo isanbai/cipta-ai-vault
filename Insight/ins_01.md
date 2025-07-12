@@ -148,3 +148,6 @@ prompt = "What is the capital of France?"
 response = get_llm_response(prompt)
 print(response)
 ```
+```
+
+```
