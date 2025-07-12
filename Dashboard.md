@@ -4,7 +4,7 @@
 
 | Week | Total Tasks | Selesai |
 |------|-------------|---------|
-| [Week01](Roadmap/Week01.md) | 10 | 3 |
+| [Week01](Roadmap/Week01.md) | 15 | 4 |
 | [Week02](Roadmap/Week02.md) | 5 | 0 |
 | [Week03](Roadmap/Week03.md) | 5 | 0 |
 | [Week04](Roadmap/Week04.md) | 7 | 0 |
@@ -28,10 +28,15 @@
 | [Week01](Roadmap/Week01.md) | [AI for Everyone – Andrew Ng (Coursera)](https://www.coursera.org/learn/ai-for-everyone) ✅ 2025-06-23 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Generative AI for Everyone (Coursera)](https://www.coursera.org/learn/generative-ai-for-everyone) ✅ 2025-06-30 | ✅ |
 | [Week01](Roadmap/Week01.md) | [AI Python for Beginners (Coursera)](https://www.coursera.org/learn/ai-python-for-beginners) ✅ 2025-07-08 | ✅ |
-| [Week01](Roadmap/Week01.md) | [Mosh – Machine Learning 6 jam (Python)](https://www.youtube.com/watch?v=7eh4d6sabA0) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Mosh – Machine Learning (Python)](https://www.youtube.com/watch?v=7eh4d6sabA0) ✅ 2025-07-13 | ✅ |
+| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners (2025)](https://www.youtube.com/watch?v=K5KVEU3aaeQ) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners 6Hr]([Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc)) | ❌ |
 | [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) | ❌ |
 | [Week01](Roadmap/Week01.md) | [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/) | ❌ |
 | [Week01](Roadmap/Week01.md) | 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Machine Learning Specialization(Coursera)](https://www.coursera.org/specializations/machine-learning-introduction) | ❌ |
+| [Week01](Roadmap/Week01.md) | [ChatGPT Prompt Engineering for Developers(Coursera)](https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project/home/welcome) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Prompt Engineering with Llama 2&3(Coursera)](https://www.coursera.org/learn/prompt-engineering-with-llama-2/home/welcome) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Python for Data Science – FreeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Supervised Machine Learning – Stanford (Coursera)](https://www.coursera.org/learn/machine-learning) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Kaggle – Python + Pandas](https://www.kaggle.com/learn/pandas) | ❌ |
