@@ -13,6 +13,9 @@
 - [ ] [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python)
 - [ ] [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
 - [ ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
+- [ ] [Machine Learning Specialization(Coursera)](https://www.coursera.org/specializations/machine-learning-introduction)
+- [ ] [ChatGPT Prompt Engineering for Developers(Coursera)](https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project/home/welcome)
+- [ ] [Prompt Engineering with Llama 2&3(Coursera)](https://www.coursera.org/learn/prompt-engineering-with-llama-2/home/welcome)
 
 #### 🛠️ Project Tasks:
 - [ ] Buat script parsing metadata foto ( #AmmarAI)
