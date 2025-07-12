@@ -110,3 +110,24 @@ DL Flow:
 |**TensorFlow / Keras**|Untuk Deep Learning|Kita pakai di Week 3|
 |**PyTorch**|Alternatif DL (lebih teknikal)|Dipelajari saat lanjut ke level LLM|
 |**HuggingFace**|Model pretrained (NLP)|Masuk Week 5+|
+
+Karena `pandas` dibangun di atas **NumPy**, semua operasi dataframe secara internal berbasis array, agar:
+- Lebih **efisien dan cepat**,
+- Mendukung **broadcasting dan vektorisasi**,
+- Dan bisa memproses data besar secara efisien.
+```
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+print(df.values)  # Tanpa import numpy pun bisa
+```
+- `df.values` menghasilkan: `numpy.ndarray`
+- `type(df.values)` akan menampilkan: `<class 'numpy.ndarray'>`
+- Tapi `pandas` tetap menyembunyikan semua itu agar kamu cukup pakai satu `import pandas as pd`
+
+```
+import numpy as np
+arr = np.array([[1,2,3],[4,5,6]])
+```
+- Membuat `array` sendiri,
+- Pakai fungsi `np.mean`, `np.array`, `np.dot`, dsb.,
