@@ -44,7 +44,7 @@
 - [ ] Data awal pertumbuhan anak ( #Ammar-AI)
 - [ ] Script awal pembaca CV ( #HireJob)
 
-[Insight](/Insight/ins_01.md)
+
 [[Course/Week01_Fundamentals/modul|modul]]
 
 ---
