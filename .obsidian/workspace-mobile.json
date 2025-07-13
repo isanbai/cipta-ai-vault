@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
-                "mode": "source",
+                "file": "Roadmap/Week01.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Week01"
             }
           }
         ]
@@ -165,6 +165,19 @@
   },
   "active": "e814927026ac028d",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/modul.md",
+    "/Roadmap.md",
+    "/Roadmap/Week01.md",
+    "/Roadmap",
+    "/Insight/ins_01.md",
+    "/Insight",
+    "/Dashboard.md",
+    "/Course/Week01_Fundamentals/modul.md",
+    "/Course/Week01_Fundamentals/app.py",
+    "Course/Week01_Fundamentals/app.py",
+    "/Course/Week01_Fundamentals",
+    "/Course",
+    "Dashboard.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
     "Course/Week02_NeuralNet/prak2_keras_mnist.ipynb",
@@ -174,32 +187,19 @@
     "Course/Week11_Frontend/prak11_chainlit_react.ipynb",
     "Course/Week11_Frontend/modul.md",
     "Course/Week01_Fundamentals/prak1_linear_regression.ipynb",
-    "Course/Week01_Fundamentals/modul.md",
-    "Course/Week06_AudioTTS/prak6_tts_bark.ipynb",
     "Course/Week06_AudioTTS/modul.md",
-    "Course/Week03_CNN/prak3_facial_emotion.ipynb",
     "Course/Week03_CNN/modul.md",
-    "Course/Week05_NLP/prak5_intent_detection.ipynb",
     "Course/Week05_NLP/modul.md",
-    "Course/Week04_TransferLearning/prak4_classify_age.ipynb",
     "Course/Week04_TransferLearning/modul.md",
-    "Course/Week12_FinalProject/prak12_final_projects.ipynb",
     "Course/Week12_FinalProject/modul.md",
-    "Course/Week08_RAG/prak8_langchain_llamaindex.ipynb",
     "Course/Week08_RAG/modul.md",
     "Course/Week10_Deployment/modul.md",
     "Course/Week09_Qdrant/modul.md",
     "Course/README.md",
-    "/Insight/ins_01.md",
     "/Course/Week12_FinalProject/modul.md",
     "/Course/Week11_Frontend/modul.md",
     "/Course/Week10_Deployment/modul.md",
     "/Course/Week09_Qdrant/modul.md",
-    "/Course/Week08_RAG/modul.md",
-    "/Course/Week07_LLM/modul.md",
-    "/Course/Week06_AudioTTS/modul.md",
-    "/Course/Week05_NLP/modul.md",
-    "/Course/Week04_TransferLearning/modul.md",
-    "/Course/Week03_CNN/modul.md"
+    "/Course/Week08_RAG/modul.md"
   ]
 }
