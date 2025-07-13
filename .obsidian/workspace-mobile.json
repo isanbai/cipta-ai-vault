@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Week01_Fundamentals/modul.md",
+                "file": "Roadmap/Week01.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "modul"
+              "title": "Week01"
             }
           }
         ]
@@ -165,6 +165,7 @@
   },
   "active": "e814927026ac028d",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/modul.md",
     "/Roadmap.md",
     "/Roadmap/Week01.md",
     "/Roadmap",
@@ -186,7 +187,6 @@
     "Course/Week11_Frontend/prak11_chainlit_react.ipynb",
     "Course/Week11_Frontend/modul.md",
     "Course/Week01_Fundamentals/prak1_linear_regression.ipynb",
-    "Course/Week01_Fundamentals/modul.md",
     "Course/Week06_AudioTTS/modul.md",
     "Course/Week03_CNN/modul.md",
     "Course/Week05_NLP/modul.md",
