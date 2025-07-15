@@ -12,3 +12,4 @@
 #### 🛠️ Project Tasks:
 - [ ] Dataset produk: harga & stok ( #BarangLagi)
 - [ ] Metadata konten anak ( #AmmarAI)
+- [ ] Data awal pertumbuhan anak ( #Ammar-AI)
