@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
+                "file": "Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning Fundamentals"
+              "title": "Dashboard"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "Course/Week01_Fundamentals/modul.md",
+    "Roadmap.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
+    "Course/Week01_Fundamentals/modul.md",
     "Roadmap/Week01.md",
     "Roadmap/Week03.md",
     "Roadmap/Week02.md",
@@ -212,7 +213,6 @@
     "Insight/ins_01.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/app.py",
-    "Roadmap.md",
     "Dashboard.md",
     "00-Index/Final_Roadmap_AI.md",
     "00-Index/Course.md",
