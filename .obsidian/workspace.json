@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week01.md",
+                "file": "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week01"
+              "title": "Machine Learning Fundamentals"
             }
           }
         ],
@@ -198,16 +198,17 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/modul.md",
+    "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
+    "Roadmap/Week01.md",
     "Roadmap/Week03.md",
     "Roadmap/Week02.md",
     "Roadmap/Week04.md",
-    "Roadmap/Week01.md",
     "Roadmap/Week09.md",
     "Roadmap/Week08.md",
     "Roadmap/Week07.md",
     "Roadmap/Week06.md",
     "Roadmap/Week05.md",
-    "Course/Week01_Fundamentals/modul.md",
     "Insight/ins_01.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/app.py",
@@ -233,7 +234,6 @@
     "Course/Week08_RAG/modul.md",
     "Course/Week07_LLM/modul.md",
     "Course/Week06_AudioTTS/modul.md",
-    "Course/Week05_NLP/modul.md",
     "Untitled.canvas"
   ]
 }
