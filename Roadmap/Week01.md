@@ -2,7 +2,7 @@
 #### 🎯 Goals:
 - Instalasi Python, VSCode, Colab
 - Belajar variabel, fungsi, list, dict
-- Memahami AI vs ML vs DL
+- Memahami AI vs ML vs DL (Neural Network)
 - Linear Regression dengan Scikit-Learn
 
 #### 📚 Course Progress:
