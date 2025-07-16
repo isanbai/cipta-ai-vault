@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Roadmap"
             }
           }
         ],
@@ -198,10 +198,13 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Roadmap/Week14.md",
+    "Roadmap/Week15.md",
+    "Roadmap/Week01.md",
+    "Dashboard.md",
     "Roadmap.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
     "Course/Week01_Fundamentals/modul.md",
-    "Roadmap/Week01.md",
     "Roadmap/Week03.md",
     "Roadmap/Week02.md",
     "Roadmap/Week04.md",
@@ -213,7 +216,6 @@
     "Insight/ins_01.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/app.py",
-    "Dashboard.md",
     "00-Index/Final_Roadmap_AI.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
@@ -232,8 +234,6 @@
     "Course/Week09_Qdrant/modul.md",
     "Course/Week09_Qdrant/prak9_qdrant_reranker.ipynb",
     "Course/Week08_RAG/modul.md",
-    "Course/Week07_LLM/modul.md",
-    "Course/Week06_AudioTTS/modul.md",
     "Untitled.canvas"
   ]
 }
