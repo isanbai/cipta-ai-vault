@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week03.md",
+                "file": "Roadmap/Week01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week03"
+              "title": "Week01"
             }
           }
         ],
@@ -198,10 +198,10 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Roadmap/Week03.md",
     "Roadmap/Week02.md",
     "Roadmap/Week04.md",
     "Roadmap/Week01.md",
-    "Roadmap/Week03.md",
     "Roadmap/Week09.md",
     "Roadmap/Week08.md",
     "Roadmap/Week07.md",
