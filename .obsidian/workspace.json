@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insight/Strategi Tiktok.md",
+                "file": "Insight/Link.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strategi Tiktok"
+              "title": "Link"
             }
           }
         ],
@@ -199,11 +199,12 @@
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
     "Roadmap.md",
+    "Insight/Link.md",
+    "Dashboard.md",
     "Insight/Strategi Tiktok.md",
     "Roadmap/Week14.md",
     "Roadmap/Week15.md",
     "Roadmap/Week01.md",
-    "Dashboard.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
     "Course/Week01_Fundamentals/modul.md",
     "Roadmap/Week03.md",
@@ -232,7 +233,6 @@
     "Course/Week10_Deployment/modul.md",
     "Course/Week10_Deployment/prak10_fastapi_docker.ipynb",
     "Course/Week10_Deployment",
-    "Course/Week09_Qdrant/modul.md",
     "Course/Week09_Qdrant/prak9_qdrant_reranker.ipynb",
     "Untitled.canvas"
   ]
