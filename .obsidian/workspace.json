@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Week01.md",
+                "file": "Insight/Link.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week01"
+              "title": "Link"
             }
           }
         ],
@@ -198,12 +198,12 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "[Python.md",
+    "Insight/Strategi Tiktok.md",
     "Roadmap/Week01.md",
+    "[Python.md",
     "Insight/Link.md",
     "Roadmap.md",
     "Dashboard.md",
-    "Insight/Strategi Tiktok.md",
     "Roadmap/Week14.md",
     "Roadmap/Week15.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
