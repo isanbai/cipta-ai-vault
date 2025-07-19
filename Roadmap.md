@@ -33,7 +33,7 @@
 - [ ] [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
 - [ ] 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml)
 - [x] [Mosh - Python Full Course for Beginners (2025)](https://www.youtube.com/watch?v=K5KVEU3aaeQ) ✅ 2025-07-16
-- [ ] [Mosh - Python Full Course for Beginners 6Hr]([Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc))
+- [ ] [Mosh - Python Full Course for Beginners 6Hr](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 - [ ] [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python)
 - [ ] [Machine Learning Specialization(Coursera)](https://www.coursera.org/specializations/machine-learning-introduction)
 
