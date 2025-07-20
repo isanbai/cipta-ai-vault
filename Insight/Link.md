@@ -1,3 +1,8 @@
+
+[Python for Everybody - Full University Python Course](https://www.youtube.com/watch?v=8DvywoWv6fI)
+
+[Python Full Course for free 🐍 2024](https://www.youtube.com/watch?v=ix9cRaBkVe0)
+
 [Artificial Intelligence Full Course | Artificial Intelligence Tutorial for Beginners | Edureka](https://www.youtube.com/watch?v=JMUxmLyrhSk)
 
 [Scientific Computing with Python | freeCodeCamp.org](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
@@ -6,7 +11,7 @@
 
 [Machine Learning Course for Beginners - YouTube](https://www.youtube.com/watch?v=NWONeJKn6kc)
 
-[Pemelajaran Mendalam | Coursera](https://www.coursera.org/specializations/deep-learning)
+[Deep Learning | Coursera](https://www.coursera.org/specializations/deep-learning)
 
 [100 Days of Machine Learning - YouTube](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
 
@@ -20,5 +25,7 @@
 [Home - Qdrant](https://qdrant.tech/documentation/)
 
 [Overview - Chainlit](https://docs.chainlit.io/get-started/overview)
+
+
 
 
