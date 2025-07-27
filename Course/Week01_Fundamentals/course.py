@@ -1,14 +1,21 @@
-import socket
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import ssl
 
-mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.connect(('data.pr4e.org', 80))
-cmd = 'GET http://data.pr4e.org/intro-short.txt HTTP/1.0\r\n\r\n'.encode()
-mysock.send(cmd)
+# Ignore SSL certificate errors
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
-while True:
-    data = mysock.recv(512)
-    if len(data) < 1:
-        break
-    print(data.decode(), end='')
+url = "http://py4e-data.dr-chuck.net/comments_2264601.html"
+html = urlopen(url, context=ctx).read()
+soup = BeautifulSoup(html, "html.parser")
 
-mysock.close()
+# Retrieve all of the anchor tags
+tags = soup('span')
+for tag in tags:
+    # Look at the parts of a tag
+    print('TAG:', tag)
+    print('URL:', tag.get('href', None))
+    print('Contents:', tag.contents[0])
+    print('Attrs:', tag.attrs)
