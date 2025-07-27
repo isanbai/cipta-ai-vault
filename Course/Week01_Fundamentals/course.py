@@ -10,15 +10,17 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-url = "http://py4e-data.dr-chuck.net/known_by_Shanelle.html"
-html = urllib.request.urlopen(url, context=ctx).read()
-soup = BeautifulSoup(html, 'html.parser')
-
-count = input('Count:')
+count = 1
+counts = int(input('Count:'))
+pos = int(input('Position:'))
 
 # Retrieve all of the anchor tags
-tags = soup('a')
-for tag in tags:
-    print(tag.get('href', None))
-
-print(count)
+url = "http://py4e-data.dr-chuck.net/known_by_Shanelle.html"
+while count <= counts:
+    html = urllib.request.urlopen(url, context=ctx).read()
+    soup = BeautifulSoup(html, 'html.parser')
+    tags = soup('a')
+    data = tags[pos-1]
+    url = data.get('href', None)
+    print(url)
+    count += 1
