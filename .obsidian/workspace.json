@@ -198,6 +198,7 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/course.py",
     "Roadmap/Week01.md",
     "Insight/Link.md",
     "Insight/Strategi Tiktok.md",
@@ -228,7 +229,6 @@
     "Course/Week12_FinalProject/modul.md",
     "Course/Week12_FinalProject/prak12_final_projects.ipynb",
     "Course/Week12_FinalProject",
-    "Course/Week11_Frontend/modul.md",
     "Course/Week11_Frontend/prak11_chainlit_react.ipynb",
     "Course/Week11_Frontend",
     "Course/Week10_Deployment/prak10_fastapi_docker.ipynb",
