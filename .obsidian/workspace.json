@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Week01_Fundamentals/modul.md",
+                "file": "Roadmap/Week01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "modul"
+              "title": "Week01"
             }
           }
         ],
@@ -198,8 +198,10 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "Course/Week01_Fundamentals/course.py",
+    "Roadmap/Week02.md",
     "Roadmap/Week01.md",
+    "Course/Week01_Fundamentals/modul.md",
+    "Course/Week01_Fundamentals/course.py",
     "Insight/Link.md",
     "Insight/Strategi Tiktok.md",
     "[Python.md",
@@ -208,9 +210,7 @@
     "Roadmap/Week14.md",
     "Roadmap/Week15.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
-    "Course/Week01_Fundamentals/modul.md",
     "Roadmap/Week03.md",
-    "Roadmap/Week02.md",
     "Roadmap/Week04.md",
     "Roadmap/Week09.md",
     "Roadmap/Week08.md",
@@ -233,7 +233,6 @@
     "Course/Week11_Frontend",
     "Course/Week10_Deployment/prak10_fastapi_docker.ipynb",
     "Course/Week10_Deployment",
-    "Course/Week09_Qdrant/prak9_qdrant_reranker.ipynb",
     "Untitled.canvas"
   ]
 }
