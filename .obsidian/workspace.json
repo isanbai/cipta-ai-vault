@@ -175,14 +175,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "d12a187ff1fbb78e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +207,8 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "Roadmap/Week02.md",
     "Roadmap/Week01.md",
+    "Roadmap/Week02.md",
     "Course/Week01_Fundamentals/modul.md",
     "Course/Week01_Fundamentals/course.py",
     "Insight/Link.md",
