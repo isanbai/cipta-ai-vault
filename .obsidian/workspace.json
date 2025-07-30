@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,6 +209,10 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/sq1.db-journal",
+    "Proyek/~$ireJob.md",
+    "Proyek/DakwahAI.md",
+    "Proyek/HireJob.md",
     "Roadmap/Week01.md",
     "Roadmap/Week02.md",
     "Course/Week01_Fundamentals/modul.md",
@@ -233,10 +238,7 @@
     "00-Index/Final_Roadmap_AI.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
-    "Course/Week02_NeuralNet/modul.md",
     "Course/Week01_Fundamentals/prak1_linear_regression_VALID.ipynb",
-    "Course/Week03_CNN/modul.md",
-    "Course/Week12_FinalProject/modul.md",
     "Course/Week12_FinalProject/prak12_final_projects.ipynb",
     "Course/Week12_FinalProject",
     "Course/Week11_Frontend/prak11_chainlit_react.ipynb",
