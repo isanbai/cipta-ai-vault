@@ -209,6 +209,10 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Course/Week01_Fundamentals/rosterdb.sqlite-journal",
+    "Course/Week01_Fundamentals/rosterdb.sqlite",
+    "Course/Week01_Fundamentals/roster_data_sample.json",
+    "Course/Week01_Fundamentals/Unconfirmed 972101.crdownload",
     "Course/Week01_Fundamentals/bizform.pdf",
     "Course/Week01_Fundamentals/Unconfirmed 653320.crdownload",
     "Course/Week01_Fundamentals/sq1.db-journal",
@@ -241,10 +245,6 @@
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
     "Course/Week01_Fundamentals/prak1_linear_regression_VALID.ipynb",
-    "Course/Week12_FinalProject/prak12_final_projects.ipynb",
-    "Course/Week12_FinalProject",
-    "Course/Week11_Frontend/prak11_chainlit_react.ipynb",
-    "Course/Week11_Frontend",
     "Untitled.canvas"
   ]
 }
