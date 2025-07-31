@@ -302,3 +302,11 @@ Tools seperti **Cursor IDE (pakai GPT-4)** dan **Continue (open-source)** bisa:
     > “Buat fitur upload CV dan simpan ke database”
 6. 🧠 Tambahkan CrewAI/LangGraph jika mau multi-agent
 
+
+Maka kamu tetap perlu bangun:
+
+- Agent lokal sendiri (pakai OpenDevin / Devika / smol-dev)
+    
+- Local LLM (DeepSeek Coder, Llama3 Code, CodeLlama)
+    
+- Dengan sistem **prompt + planning + memory + executor loop**
