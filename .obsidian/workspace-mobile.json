@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ee8fc11da4c7f1c5",
+        "id": "09834d3cbcc22f8e",
         "type": "tabs",
         "children": [
           {
-            "id": "e814927026ac028d",
+            "id": "d5e2b61df536de0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Roadmap/Week01.md",
-                "mode": "preview",
-                "source": true
+                "aFile": "Roadmap/Week01.md",
+                "bFile": "Roadmap/Week01.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Week01"
+              "icon": "git-pull-request",
+              "title": "Diff: Week01"
             }
           }
         ]
@@ -147,9 +148,19 @@
           "icon": "calendar-with-checkmark",
           "title": "Calendar"
         }
+      },
+      {
+        "id": "dded61cd1858ce82",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +174,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e814927026ac028d",
+  "active": "d5e2b61df536de0a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Roadmap/Week01.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/python AI ML DL.ipynb",
     "/Untitled1.ipynb",
@@ -184,7 +197,6 @@
     "Dashboard.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
-    "Course/Week02_NeuralNet/prak2_keras_mnist.ipynb",
     "Course/Week02_NeuralNet/modul.md",
     "Course/Week07_LLM/modul.md",
     "Course/Week11_Frontend/modul.md",
@@ -199,7 +211,6 @@
     "Course/README.md",
     "/Course/Week12_FinalProject/modul.md",
     "/Course/Week11_Frontend/modul.md",
-    "/Course/Week10_Deployment/modul.md",
-    "/Course/Week09_Qdrant/modul.md"
+    "/Course/Week10_Deployment/modul.md"
   ]
 }
