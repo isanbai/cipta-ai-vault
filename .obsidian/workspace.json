@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insight/Introduction to Software Engineering.md",
+                "file": "Insight/IBM Introduction to Software Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Software Engineering"
+              "title": "IBM Introduction to Software Engineering"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -208,9 +209,18 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "Roadmap/Week01.md",
-    "Insight/Introduction to Software Engineering.md",
+    "Course/README.md",
+    "Course/Week12_FinalProject/modul.md",
+    "Roadmap/Week11.md",
+    "Roadmap/Week15.md",
+    "Roadmap/Week14.md",
+    "Roadmap/Week10.md",
+    "Roadmap/Week08.md",
+    "Roadmap/Week07.md",
+    "Roadmap/Week03.md",
     "Roadmap/Week02.md",
+    "Roadmap/Week01.md",
+    "Insight/IBM Introduction to Software Engineering.md",
     "Proyek/HireJob.md",
     "Course/Week01_Fundamentals/rosterdb.sqlite-journal",
     "Course/Week01_Fundamentals/rosterdb.sqlite",
@@ -228,22 +238,13 @@
     "[Python.md",
     "Roadmap.md",
     "Dashboard.md",
-    "Roadmap/Week14.md",
-    "Roadmap/Week15.md",
     "Course/Week01_Fundamentals/Machine Learning Fundamentals.md",
-    "Roadmap/Week03.md",
     "Roadmap/Week04.md",
     "Roadmap/Week09.md",
-    "Roadmap/Week08.md",
-    "Roadmap/Week07.md",
     "Roadmap/Week06.md",
     "Roadmap/Week05.md",
-    "Insight/ins_01.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/app.py",
-    "00-Index/Final_Roadmap_AI.md",
-    "00-Index/Course.md",
-    "00-Index/Technical Phase.md",
     "Untitled.canvas"
   ]
 }
