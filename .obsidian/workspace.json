@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proyek/HireJob.md",
+                "file": "Insight/Introduction to Software Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HireJob"
+              "title": "Introduction to Software Engineering"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -209,6 +208,10 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Roadmap/Week01.md",
+    "Insight/Introduction to Software Engineering.md",
+    "Roadmap/Week02.md",
+    "Proyek/HireJob.md",
     "Course/Week01_Fundamentals/rosterdb.sqlite-journal",
     "Course/Week01_Fundamentals/rosterdb.sqlite",
     "Course/Week01_Fundamentals/roster_data_sample.json",
@@ -218,9 +221,6 @@
     "Course/Week01_Fundamentals/sq1.db-journal",
     "Proyek/~$ireJob.md",
     "Proyek/DakwahAI.md",
-    "Proyek/HireJob.md",
-    "Roadmap/Week01.md",
-    "Roadmap/Week02.md",
     "Course/Week01_Fundamentals/modul.md",
     "Course/Week01_Fundamentals/course.py",
     "Insight/Link.md",
@@ -244,7 +244,6 @@
     "00-Index/Final_Roadmap_AI.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
-    "Course/Week01_Fundamentals/prak1_linear_regression_VALID.ipynb",
     "Untitled.canvas"
   ]
 }
