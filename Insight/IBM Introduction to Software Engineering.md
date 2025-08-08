@@ -17,3 +17,15 @@
 - Functional testing is concerned with inputs and corresponding outputs of the system under test, non-functional testing tests for attributes such as performance, security, scalability, and availability. Whereas regression testing confirms that a recent change to the application, such as a bug fix, does not adversely affect already existing functionality. 
 - Types of documentation include requirements, design, technical, quality assurance, and user. 
 - There are many different roles involved in a software engineering project. Some of them include project manager or scrum master, stakeholder, system or software architect, UX designer, software developer, tester or QA engineer, site reliability or Ops engineer, product manager or owner, and technical writer or information developer.
+
+### Introduction to Software Development
+
+- How websites are built and displayed, and how they communicate with the back-end servers. 
+- How different front-end technologies work together to create reactive and responsive websites. 
+- How back-end development covers a wide range of technologies including business logic, security, and database access. 
+- Effective teamwork can result in better quality code with fewer bugs, better-skilled team members, and less stress for everyone. 
+- Pair programming is a great way to share knowledge and skills between developers, resulting in better solutions and improved efficiency. 
+- You can use developer tools to track who makes what changes to your code with version control software, access libraries of reusable code, and use frameworks to build and deploy applications in a standard way. 
+- CI/CD tools, build tools, packages, and package managers help you build and distribute your applications. 
+- A software stack is a combination of technologies for creating applications and solutions.
+
