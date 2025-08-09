@@ -38,4 +38,4 @@ jobs:
         with:
           name: kiosk-debug-apk
           path: |
-            kiosk_app/app/build/outputs/apk/debug/*.apk
+            Proyek/kiosk_app/app/build/outputs/apk/debug/*.apk
