@@ -258,3 +258,28 @@ asynchronously and transactionally【83036416110107†L172-L176】.
 ## BLE UUID Config
 - Service/Characteristic UUID untuk BLE GATT **tidak di-hardcode**. Set langsung dari **Settings → BLE** di dalam aplikasi.
 - Biarkan kosong bila tidak menggunakan BLE GATT.
+
+
+## CI: Build APK in GitHub Actions
+This repo includes `.github/workflows/android.yml` that:
+- sets up JDK + Android SDK
+- generates the Gradle wrapper (Gradle 8.7)
+- builds `assembleDebug`
+- uploads the debug APK as an artifact
+
+### Local (optional)
+If you want the wrapper locally, run:
+```bash
+./bootstrap_wrapper.sh
+./gradlew assembleDebug
+```
+
+
+### Windows: Generate Gradle Wrapper (if missing)
+If `gradlew.bat` is missing, run the PowerShell script to generate wrapper locally:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass -Force
+.ootstrap_wrapper.ps1
+.\gradlew.bat assembleDebug
+```

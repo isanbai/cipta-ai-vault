@@ -1,5 +1,4 @@
-
-name: Android CI (Build APK)
+name: Android CI (Build APK with Wrapper)
 
 on:
   workflow_dispatch:
@@ -23,16 +22,22 @@ jobs:
 
       - name: Verify layout
         run: |
+          pwd
           ls -la
           ls -la app || true
 
-      - name: Set up Gradle (no wrapper)
+      - name: Generate Gradle Wrapper (8.7)
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: "8.7"
+      - name: Run wrapper task
+        run: gradle wrapper --gradle-version 8.7
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
 
       - name: Build Debug APK
-        run: gradle --no-daemon assembleDebug
+        run: ./gradlew --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
