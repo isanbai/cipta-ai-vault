@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Debug APK
         run: |
-          cd kiosk_app
+          cd Proyek/kiosk_app
           ./gradlew --no-daemon assembleDebug
 
       - name: Upload APK
