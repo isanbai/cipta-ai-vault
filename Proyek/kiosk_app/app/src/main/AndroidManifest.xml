@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kioskapp">
+
+    <!-- Required permissions for reading media, accessing Bluetooth, internet, and boot events -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+<!-- Android 13+ media collection permissions -->
+<uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<!-- Notifications for ForegroundService (Android 13+) -->
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- BLUETOOTH permissions are split by API level. BLE_CONNECT is only needed on API 31+ -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!-- For HTTP server running in the foreground service if needed -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Receive boot completed for autostart -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".KioskApplication"
+        android:allowBackup="true"
+        android:label="Kiosk App"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Main launcher activity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Settings activity -->
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar" />
+
+        <!-- Boot receiver to support autostart feature -->
+        <receiver
+            android:name=".boot.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    <service
+    android:name=".service.TriggerService"
+    android:exported="false"
+    android:foregroundServiceType="dataSync|connectedDevice|mediaPlayback" />
+    <activity
+    android:name=".wizard.KioskWizardActivity"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+    </application>
+
+</manifest>

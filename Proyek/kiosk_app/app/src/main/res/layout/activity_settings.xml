@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Video selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video file (MP4)" />
+        <Button
+            android:id="@+id/btnSelectVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select video" />
+
+        <!-- Image selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Image or GIF" />
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select image/GIF" />
+
+        <!-- Loop video switch -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchLoopVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Loop video" />
+
+        <!-- Mute video switch -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchMuteVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mute video" />
+
+        <!-- Trigger type spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Trigger source" />
+        <Spinner
+            android:id="@+id/spinnerTrigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Debounce time input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Debounce (ms)" />
+        <EditText
+            android:id="@+id/editDebounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <!-- Autostart switch -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchAutostart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Autostart on boot" />
+
+        <!-- Kiosk mode switch -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switchKiosk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Enable kiosk mode" />
+
+        <!-- Save button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Save" />
+
+
+<!-- HTTP listener toggle & port -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="HTTP Trigger" />
+<CheckBox
+    android:id="@+id/checkEnableHttp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enable HTTP listener" />
+<EditText
+    android:id="@+id/editHttpPort"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:hint="Port (e.g., 8765)" />
+
+<!-- BLE listener toggle & params -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="BLE GATT Trigger" />
+<CheckBox
+    android:id="@+id/checkEnableBle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enable BLE listener" />
+<EditText
+    android:id="@+id/editBleName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Device name filter (optional)" />
+<EditText
+    android:id="@+id/editBleService"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Service UUID (e.g., 0000180F-0000-1000-8000-00805F9B34FB)" />
+<EditText
+    android:id="@+id/editBleChar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Characteristic UUID" />
+
+
+        </LinearLayout>
+
+</ScrollView>
