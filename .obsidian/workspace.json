@@ -208,6 +208,7 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "kiosk_app/gradle.properties",
     "kiosk_app/gradlew.bat",
     "kiosk_app/gradlew",
     "kiosk_app/bootstrap_wrapper.sh",
@@ -218,7 +219,6 @@
     "kiosk_app/gradle",
     "kiosk_app/app/src/main/java/com/example/kioskapp/wizard/KioskWizardActivity.kt",
     "kiosk_app/app/src/main/java/com/example/kioskapp/util/BatteryUtils.kt",
-    "kiosk_app/app/src/main/java/com/example/kioskapp/trigger/VolumeTrigger.kt",
     "kiosk_app/README.md",
     "Proyek/kiosk_app/README.md",
     "00-Index/Course.md",
