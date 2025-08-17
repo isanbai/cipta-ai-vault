@@ -49,5 +49,5 @@
 - An architectural pattern is a repeatable solution to an architectural problem. Types of architectural patterns include 2-tier, 3-tier, event-driven, peer-to-peer, and microservices. Two or more patterns can be combined in a single system, but some are mutually exclusive.  
 - Application environments include development, testing or QA, staging, and production. Production environments tend to be more complex than pre-production because they must take into account non-functional requirements like load, security, reliability, and scalability.  
 - Application environments can be deployed either on-premises on traditional hardware, or on public, private, or hybrid cloud platforms. 
-    
 - Common components needed for a production environment include a firewall, a load balancer, web and application servers, proxy servers, and database servers.
+
