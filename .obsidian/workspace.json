@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Index/Final_Roadmap_AI.md",
+                "file": "Insight/IBM Introduction to Software Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Final_Roadmap_AI"
+              "title": "IBM Introduction to Software Engineering"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -208,6 +209,7 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "00-Index/Final_Roadmap_AI.md",
     "kiosk_app/app/src/main/res/values/colors.xml",
     "kiosk_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
     "kiosk_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
@@ -218,7 +220,6 @@
     "kiosk_app/gradle.properties",
     "kiosk_app/gradlew.bat",
     "kiosk_app/gradlew",
-    "kiosk_app/bootstrap_wrapper.sh",
     "kiosk_app/README.md",
     "Proyek/kiosk_app/README.md",
     "00-Index/Course.md",
