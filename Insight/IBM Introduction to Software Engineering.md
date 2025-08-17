@@ -32,29 +32,19 @@
 ### Basic of Programming
 
 - Interpreted programming languages create source code that runs through an interpreter and is built into your operating system (OS) on your computer or on your web browser. 
-    
 - Compiled programming languages create executable files that are grouped in programs on your computer or device.  
-    
 - Query languages, structured programming languages, and object-oriented programming languages are categorized as high-level programming languages and assembly languages are categorized as low-level programming languages.  
-    
 - The two main methods of organizing and planning code are by developing flowcharts and by writing pseudocode. Flowcharts are pictorial representations of algorithms and pseudocode is an explanation of the function of each line of a program. 
-    
 - To reference a program component, software developers use an identifier, which can either be a constant or a variable.  
-    
 - A function is a piece of structured, stand-alone, and reusable code that will perform a single specific action.  
-    
 - Object-oriented programming is a programming paradigm based on the concept of objects, which contain data and behavior through attributes and methods.
 
 ### Software Architecture, Design, and Patterns
 
 - Software architecture functions as a blueprint and represents the importance of a good architectural design. 
-    
 - Structured design breaks down a software problem into well-organized smaller solution elements whereas behavioral models describe the behavior of the system without explaining how the system implements the behavior. 
-    
 - Developing UML diagrams saves time and money by helping developers quickly get up to speed on a project, plan features in advance of coding, and navigate source code easily. Types of UML diagrams include state transition, interaction, and class diagrams.  
-    
 - Objects contain data, and they also have behaviors that prescribe the actions the object can take, whereas classes are blueprints for objects.  
-    
 - A service-oriented architecture (SOA) consists of loosely coupled services that interface with each other via a communication protocol over a network. Distributed systems run on multiple services on different machines, but they appear to the end-user as a single coherent system. 
     
 - An architectural pattern is a repeatable solution to an architectural problem. Types of architectural patterns include 2-tier, 3-tier, event-driven, peer-to-peer, and microservices. Two or more patterns can be combined in a single system, but some are mutually exclusive.  
