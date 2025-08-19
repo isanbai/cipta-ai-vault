@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -209,6 +208,8 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Insight/Link.md",
+    "Insight/IBM Introduction to Software Engineering.md",
     "00-Index/Final_Roadmap_AI.md",
     "kiosk_app/app/src/main/res/values/colors.xml",
     "kiosk_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
@@ -231,7 +232,6 @@
     "Roadmap/Week04.md",
     "Roadmap/Week03.md",
     "Roadmap/Week02.md",
-    "Insight/IBM Introduction to Software Engineering.md",
     "Course/README.md",
     "Course/Week12_FinalProject/modul.md",
     "Roadmap/Week11.md",
@@ -244,7 +244,6 @@
     "Proyek/~$ireJob.md",
     "Proyek/DakwahAI.md",
     "Course/Week01_Fundamentals/modul.md",
-    "Insight/Link.md",
     "Untitled.canvas"
   ]
 }
