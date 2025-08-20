@@ -4,7 +4,7 @@
 
 | Week | Total Tasks | Selesai |
 |------|-------------|---------|
-| [Week01](Roadmap/Week01.md) | 10 | 5 |
+| [Week01](Roadmap/Week01.md) | 10 | 6 |
 | [Week02](Roadmap/Week02.md) | 6 | 0 |
 | [Week03](Roadmap/Week03.md) | 5 | 0 |
 | [Week04](Roadmap/Week04.md) | 9 | 0 |
@@ -33,7 +33,7 @@
 | [Week01](Roadmap/Week01.md) | 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml) | ❌ |
 | [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners (2025)](https://www.youtube.com/watch?v=K5KVEU3aaeQ) ✅ 2025-07-16 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners 6Hr](https://www.youtube.com/watch?v=_uQrJ0TkZlc) | ❌ |
-| [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) ✅ 2025-08-20 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Machine Learning Specialization(Coursera)](https://www.coursera.org/specializations/machine-learning-introduction) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Python for Data Science – FreeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Supervised Machine Learning – Stanford (Coursera)](https://www.coursera.org/learn/machine-learning) | ❌ |
