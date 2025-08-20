@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72ed02330ca148e8",
+        "id": "c40810cc010d0056",
         "type": "tabs",
         "children": [
           {
-            "id": "903d91d7713f0b75",
+            "id": "be5e9feb35ec4281",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Roadmap/Week01.md",
-                "bFile": "Roadmap/Week01.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: Week01"
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -164,6 +163,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -174,12 +174,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "903d91d7713f0b75",
+  "active": "dded61cd1858ce82",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Roadmap/Week01.md",
+    "conflict-files-obsidian-git.md",
+    "/conflict-files-obsidian-git.md",
     "/Roadmap/Week01.md",
     "/Roadmap",
+    "Dashboard.md",
     "Untitled1.ipynb",
     "Course/Week01_Fundamentals/python AI ML DL.ipynb",
     "/Untitled1.ipynb",
@@ -194,7 +196,6 @@
     "/Dashboard.md",
     "/Course/Week01_Fundamentals/modul.md",
     "Course/Week01_Fundamentals/app.py",
-    "Dashboard.md",
     "00-Index/Course.md",
     "00-Index/Technical Phase.md",
     "Course/Week02_NeuralNet/modul.md",
