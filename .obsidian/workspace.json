@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insight/Strategi Tiktok.md",
+                "file": "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strategi Tiktok"
+              "title": "03. Hands-on Introduction to Linux Commands and Shell Scripting"
             }
           }
         ],
@@ -209,6 +209,7 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
+    "Insight/Strategi Tiktok.md",
     "Insight/02. Getting Started with Git and GitHub.md",
     "Roadmap/Week01.md",
     "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
