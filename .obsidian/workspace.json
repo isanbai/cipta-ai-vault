@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
+                "file": "Insight/02. Getting Started with Git and GitHub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03. Hands-on Introduction to Linux Commands and Shell Scripting"
+              "title": "02. Getting Started with Git and GitHub"
             }
           }
         ],
@@ -209,8 +209,21 @@
   },
   "active": "f251fe4398d47a0f",
   "lastOpenFiles": [
-    "Insight/02. Getting Started with Git and GitHub.md",
+    "Insight/Link.md",
+    "Insight/01. IBM Introduction to Software Engineering.md",
+    "Course/Week01_Fundamentals/where.js",
+    "Course/Week01_Fundamentals/where.html",
+    "Course/Week01_Fundamentals/where.data",
+    "Course/Week01_Fundamentals/tracks.csv",
+    "Course/Week01_Fundamentals/trackdb.sqlite",
+    "Course/Week01_Fundamentals/sq1.db",
+    "Course/Week01_Fundamentals/spider.js",
+    "Course/Week01_Fundamentals/rosterdb.sqlite",
+    "Course/Week01_Fundamentals/roster_data_sample.json",
+    "Course/Week01_Fundamentals/regex_sum_2264599.txt",
+    "conflict-files-obsidian-git.md",
     "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
+    "Insight/02. Getting Started with Git and GitHub.md",
     "Roadmap/Week01.md",
     "Dashboard.md",
     "Roadmap.md",
@@ -228,23 +241,9 @@
     "Roadmap/Week05.md",
     "Roadmap/Week04.md",
     "Roadmap/Week03.md",
-    "Insight/01. IBM Introduction to Software Engineering.md",
-    "Insight/Link.md",
     "00-Index/Final_Roadmap_AI.md",
-    "kiosk_app/app/src/main/res/values/colors.xml",
-    "kiosk_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
-    "kiosk_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
-    "kiosk_app/app/src/main/res/mipmap-anydpi-v26",
-    "kiosk_app/app/src/main/res/drawable/ic_launcher_foreground.xml",
-    "kiosk_app/app/src/main/res/drawable",
-    "kiosk_app/app/src/main/java/com/example/kioskapp/service/BootReceiver.kt",
-    "kiosk_app/gradle.properties",
-    "kiosk_app/gradlew.bat",
-    "kiosk_app/gradlew",
     "kiosk_app/README.md",
     "Proyek/kiosk_app/README.md",
-    "00-Index/Course.md",
-    "00-Index/Certification.md",
     "Untitled.canvas"
   ]
 }
