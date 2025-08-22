@@ -4,15 +4,15 @@
 
 | Week | Total Tasks | Selesai |
 |------|-------------|---------|
-| [Week01](Roadmap/Week01.md) | 15 | 4 |
-| [Week02](Roadmap/Week02.md) | 5 | 0 |
+| [Week01](Roadmap/Week01.md) | 10 | 6 |
+| [Week02](Roadmap/Week02.md) | 6 | 0 |
 | [Week03](Roadmap/Week03.md) | 5 | 0 |
-| [Week04](Roadmap/Week04.md) | 7 | 0 |
+| [Week04](Roadmap/Week04.md) | 9 | 0 |
 | [Week05](Roadmap/Week05.md) | 4 | 0 |
 | [Week06](Roadmap/Week06.md) | 4 | 0 |
 | [Week07](Roadmap/Week07.md) | 5 | 0 |
 | [Week08](Roadmap/Week08.md) | 5 | 0 |
-| [Week09](Roadmap/Week09.md) | 5 | 0 |
+| [Week09](Roadmap/Week09.md) | 7 | 0 |
 | [Week10](Roadmap/Week10.md) | 8 | 0 |
 | [Week11](Roadmap/Week11.md) | 6 | 0 |
 | [Week12](Roadmap/Week12.md) | 4 | 0 |
@@ -29,14 +29,12 @@
 | [Week01](Roadmap/Week01.md) | [Generative AI for Everyone (Coursera)](https://www.coursera.org/learn/generative-ai-for-everyone) ✅ 2025-06-30 | ✅ |
 | [Week01](Roadmap/Week01.md) | [AI Python for Beginners (Coursera)](https://www.coursera.org/learn/ai-python-for-beginners) ✅ 2025-07-08 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Mosh – Machine Learning (Python)](https://www.youtube.com/watch?v=7eh4d6sabA0) ✅ 2025-07-13 | ✅ |
-| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners (2025)](https://www.youtube.com/watch?v=K5KVEU3aaeQ) | ❌ |
-| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners 6Hr]([Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc)) | ❌ |
-| [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) | ❌ |
 | [Week01](Roadmap/Week01.md) | [FreeCodeCamp – Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/) | ❌ |
 | [Week01](Roadmap/Week01.md) | 💡 [GitHub – Scikit-Learn Examples](https://github.com/ageron/handson-ml) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners (2025)](https://www.youtube.com/watch?v=K5KVEU3aaeQ) ✅ 2025-07-16 | ✅ |
+| [Week01](Roadmap/Week01.md) | [Mosh - Python Full Course for Beginners 6Hr](https://www.youtube.com/watch?v=_uQrJ0TkZlc) | ❌ |
+| [Week01](Roadmap/Week01.md) | [Python for Everybody – Coursera (Audit)](https://www.coursera.org/specializations/python) ✅ 2025-08-20 | ✅ |
 | [Week01](Roadmap/Week01.md) | [Machine Learning Specialization(Coursera)](https://www.coursera.org/specializations/machine-learning-introduction) | ❌ |
-| [Week01](Roadmap/Week01.md) | [ChatGPT Prompt Engineering for Developers(Coursera)](https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project/home/welcome) | ❌ |
-| [Week01](Roadmap/Week01.md) | [Prompt Engineering with Llama 2&3(Coursera)](https://www.coursera.org/learn/prompt-engineering-with-llama-2/home/welcome) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Python for Data Science – FreeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Supervised Machine Learning – Stanford (Coursera)](https://www.coursera.org/learn/machine-learning) | ❌ |
 | [Week02](Roadmap/Week02.md) | [Kaggle – Python + Pandas](https://www.kaggle.com/learn/pandas) | ❌ |
@@ -56,6 +54,8 @@
 | [Week08](Roadmap/Week08.md) | [RAG with OpenAI](https://platform.openai.com/docs/guides/retrieval) | ❌ |
 | [Week09](Roadmap/Week09.md) | [Awesome RAG Resources](https://github.com/hwchase17/awesome-rag) | ❌ |
 | [Week09](Roadmap/Week09.md) | [DeepLearning.AI – LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/) | ❌ |
+| [Week09](Roadmap/Week09.md) | [ChatGPT Prompt Engineering for Developers(Coursera)](https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project/home/welcome) | ❌ |
+| [Week09](Roadmap/Week09.md) | [Prompt Engineering with Llama 2&3(Coursera)](https://www.coursera.org/learn/prompt-engineering-with-llama-2/home/welcome) | ❌ |
 | [Week10](Roadmap/Week10.md) | [FastAPI + Docker (YouTube)](https://www.youtube.com/watch?v=0sOvCWFmrtA) | ❌ |
 | [Week10](Roadmap/Week10.md) | [FastAPI Docs](https://fastapi.tiangolo.com/) | ❌ |
 | [Week10](Roadmap/Week10.md) | [Docker Docs](https://docs.docker.com/get-started/) | ❌ |

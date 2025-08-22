@@ -16,3 +16,5 @@
 #### 🛠️ Project Tasks:
 - [ ] Klasifikasi ekspresi wajah anak ( #AmmarAI)
 - [ ] Layout AI ceramah visual ( #DakwahAI)
+- [ ] Buat script parsing metadata foto ( #AmmarAI)
+- [ ] Script awal pembaca CV ( #HireJob)
