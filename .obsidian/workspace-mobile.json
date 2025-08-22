@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9b5361c3d4ab3db6",
+        "id": "0ee061aa6f059694",
         "type": "tabs",
         "children": [
           {
-            "id": "a2c80778d352e51f",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "aFile": "Roadmap/Week01.md",
-                "bFile": "Roadmap/Week01.md",
-                "aRef": ""
-              },
-              "icon": "git-pull-request",
-              "title": "Diff: Week01"
-            }
-          },
-          {
-            "id": "86cabdcfade87e29",
+            "id": "92c36e349567cd48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+                "file": "Roadmap/Week01.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Week01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,10 +174,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86cabdcfade87e29",
+  "active": "92c36e349567cd48",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Roadmap/Week01.md",
+    "conflict-files-obsidian-git.md",
     "/conflict-files-obsidian-git.md",
     "/Roadmap/Week01.md",
     "/Roadmap",
