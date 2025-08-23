@@ -1,6 +1,6 @@
 Task,Category,Milestone,Phase,Status,Due Date,Assignee,Priority,Dependency
 Desain arsitektur teknis & requirement list,Teknis,MVP Launch,Bulan 1,To Do,2025-09-15,Founder,High,
-Setup server, domain, Docker, CI/CD,Teknis,MVP Launch,Bulan 1,To Do,2025-09-20,DevOps,High,Desain arsitektur teknis & requirement list
+Setup server- domain- Docker- CI/CD,Teknis,MVP Launch,Bulan 1,To Do,2025-09-20,DevOps,High,Desain arsitektur teknis & requirement list
 Branding & landing page design,Non-Teknis,Foundation,Bulan 1,To Do,2025-09-25,Designer,Medium,
 Setup akun sosial media & konten planning,Non-Teknis,Foundation,Bulan 1,To Do,2025-09-30,Marketing,High,Branding & landing page design
 Sourcing data awal (scraping lowongan, kumpulkan CV),Data,Foundation,Bulan 1,To Do,2025-09-30,Data Engineer,High,
