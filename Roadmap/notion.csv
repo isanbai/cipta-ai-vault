@@ -3,17 +3,17 @@ Desain arsitektur teknis & requirement list,Teknis,MVP Launch,Bulan 1,To Do,2025
 Setup server- domain- Docker- CI/CD,Teknis,MVP Launch,Bulan 1,To Do,2025-09-20,DevOps,High,Desain arsitektur teknis & requirement list
 Branding & landing page design,Non-Teknis,Foundation,Bulan 1,To Do,2025-09-25,Designer,Medium,
 Setup akun sosial media & konten planning,Non-Teknis,Foundation,Bulan 1,To Do,2025-09-30,Marketing,High,Branding & landing page design
-Sourcing data awal (scraping lowongan, kumpulkan CV),Data,Foundation,Bulan 1,To Do,2025-09-30,Data Engineer,High,
-Build core modules: registrasi, upload CV, post lowongan,Teknis,MVP Launch,Bulan 2,To Do,2025-10-31,Backend Dev,High,Setup server, domain, Docker, CI/CD
+Sourcing data awal (scraping lowongan - kumpulkan CV), Data,Foundation,Bulan 1,To Do,2025-09-30,Data Engineer,High,
+Build core modules: registrasi- upload CV- post lowongan,Teknis,MVP Launch,Bulan 2,To Do,2025-10-31,Backend Dev,High,Setup server, domain, Docker, CI/CD
 Implement CV parser & matching engine dasar,AI/ML,MVP Launch,Bulan 2,To Do,2025-10-31,ML Engineer,High,Sourcing data awal (scraping lowongan, kumpulkan CV)
 Soft‑launch MVP β & komunitas outreach,Go-To-Market,MVP Launch,Bulan 3,To Do,2025-11-15,Founder,Medium,Build core modules: registrasi, upload CV, post lowongan
 Setup feedback form & analytics tracker,Non-Teknis,MVP Launch,Bulan 3,To Do,2025-11-15,Frontend Dev,Medium,Soft‑launch MVP β & komunitas outreach
 Developing dashboard HR & kandidat,Teknis,Feature Expansion,Bulan 4,To Do,2025-12-05,Frontend Dev,Medium,Build core modules: registrasi, upload CV, post lowongan
-Desain konten media sosial (script, visual, kalender posting),Non-Teknis,Feature Expansion,Bulan 4,To Do,2025-12-10,Marketing,Medium,Setup akun sosial media & konten planning
+Desain konten media sosial (script- visual- kalender posting),Non-Teknis,Feature Expansion,Bulan 4,To Do,2025-12-10,Marketing,Medium,Setup akun sosial media & konten planning
 Build AI Interview Simulator MVP,AI/ML,Feature Expansion,Bulan 5,To Do,2026-01-15,ML Engineer,High,Developing dashboard HR & kandidat
 Integrasi rating system,Non-Teknis,Feature Expansion,Bulan 5,To Do,2026-01-20,Backend Dev,Low,Build core modules: registrasi, upload CV, post lowongan
 Monetization strategy draft,Bisnis,Monetisasi,Bulan 6,To Do,2026-02-05,Founder,High,Soft‑launch MVP β & komunitas outreach
-Partnership outreach: kampus, bootcamp, career coaches,Non-Teknis,Monetisasi,Bulan 6,To Do,2026-02-10,Marketing,Medium,Monetization strategy draft
+Partnership outreach: kampus- bootcamp- career coaches,Non-Teknis,Monetisasi,Bulan 6,To Do,2026-02-10,Marketing,Medium,Monetization strategy draft
 Launch premium HR packages,Bisnis,Monetisasi,Bulan 7,To Do,2026-03-01,Founder,High,Monetization strategy draft
 Campaign premium & content collab,Bisnis,Monetisasi,Bulan 8,To Do,2026-04-01,Marketing,Medium,Launch premium HR packages
 Build referral system,Growth,Scale Up,Bulan 10,To Do,2026-06-01,Backend Dev,Medium,Launch premium HR packages
