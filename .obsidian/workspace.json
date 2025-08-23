@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "03. Hands-on Introduction to Linux Commands and Shell Scripting"
