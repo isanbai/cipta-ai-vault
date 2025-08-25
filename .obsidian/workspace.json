@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Insight/04. Python for Data Science, AI & Development.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b1e0642926eae99",
