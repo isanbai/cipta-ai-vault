@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Insight/04. Python for Data Science, AI & Development.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Insight/02. Getting Started with Git and GitHub.md",
+                "file": "Insight/04. Python for Data Science, AI & Development.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02. Getting Started with Git and GitHub"
+              "title": "Outline of 04. Python for Data Science, AI & Development"
             }
           },
           {
@@ -188,12 +188,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
