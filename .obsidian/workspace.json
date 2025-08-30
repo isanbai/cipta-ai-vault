@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "04. Python for Data Science, AI & Development"
             }
-          },
-          {
-            "id": "1e04b7ab85c110fa",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -106,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -221,7 +207,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e04b7ab85c110fa",
+  "active": "0c0447d7a437c10a",
   "lastOpenFiles": [
     "Insight/01. Introduction to Software Engineering.md",
     "Insight/04. Python for Data Science, AI & Development.md",
