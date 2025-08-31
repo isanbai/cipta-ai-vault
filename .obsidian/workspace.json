@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,16 +210,22 @@
   },
   "active": "0c0447d7a437c10a",
   "lastOpenFiles": [
+    "Roadmap/Week01.md",
+    "Dashboard.md",
     "Insight/01. Introduction to Software Engineering.md",
+    "Insight/02. Getting Started with Git and GitHub.md",
+    "Roadmap.md",
+    "Proyek/DakwahAI.md",
+    "Proyek/AmmarAI.md",
     "Insight/04. Python for Data Science, AI & Development.md",
+    "00-Index/Course.md",
+    "00-Index/Certification.md",
     "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
     "Proyek/HireJob.md",
     "Roadmap/DFC2C900",
     "Roadmap/notion.csv",
     "Roadmap/New Text Document.txt",
     "Insight/Strategi Tiktok.md",
-    "Insight/02. Getting Started with Git and GitHub.md",
-    "Roadmap/Week01.md",
     "Insight/Link.md",
     "Course/Week01_Fundamentals/where.js",
     "Course/Week01_Fundamentals/where.html",
@@ -228,8 +235,6 @@
     "Course/Week01_Fundamentals/sq1.db",
     "Course/Week01_Fundamentals/spider.js",
     "conflict-files-obsidian-git.md",
-    "Dashboard.md",
-    "Roadmap.md",
     "Roadmap/Week02.md",
     "Roadmap/Week15.md",
     "Roadmap/Week14.md",
@@ -241,10 +246,6 @@
     "Roadmap/Week08.md",
     "Roadmap/Week07.md",
     "Roadmap/Week06.md",
-    "Roadmap/Week05.md",
-    "Roadmap/Week04.md",
-    "Roadmap/Week03.md",
-    "00-Index/Final_Roadmap_AI.md",
     "Untitled.canvas"
   ]
 }
