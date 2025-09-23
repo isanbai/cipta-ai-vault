@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b1e0642926eae99",
@@ -209,6 +208,11 @@
   },
   "active": "0c0447d7a437c10a",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "Untitled 3.base",
+    "Insight/04. Python for Data Science, AI & Development.md",
     "Roadmap/Week01.md",
     "Dashboard.md",
     "Insight/01. Introduction to Software Engineering.md",
@@ -216,7 +220,6 @@
     "Roadmap.md",
     "Proyek/DakwahAI.md",
     "Proyek/AmmarAI.md",
-    "Insight/04. Python for Data Science, AI & Development.md",
     "00-Index/Course.md",
     "00-Index/Certification.md",
     "Insight/03. Hands-on Introduction to Linux Commands and Shell Scripting.md",
@@ -230,9 +233,6 @@
     "Course/Week01_Fundamentals/where.html",
     "Course/Week01_Fundamentals/where.data",
     "Course/Week01_Fundamentals/tracks.csv",
-    "Course/Week01_Fundamentals/trackdb.sqlite",
-    "Course/Week01_Fundamentals/sq1.db",
-    "Course/Week01_Fundamentals/spider.js",
     "conflict-files-obsidian-git.md",
     "Roadmap/Week02.md",
     "Roadmap/Week15.md",
@@ -244,7 +244,6 @@
     "Roadmap/Week09.md",
     "Roadmap/Week08.md",
     "Roadmap/Week07.md",
-    "Roadmap/Week06.md",
     "Untitled.canvas"
   ]
 }
